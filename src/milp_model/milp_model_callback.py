@@ -309,7 +309,7 @@ def solve_milp_crowdshipping_callback(instance_data, timelimit=None, nodelimit=N
         model.setParam(GRB.Param.Threads, 2)
         model.setParam(GRB.Param.OutputFlag, 1)
         
-        # model.setParam(GRB.Param.LogFile, "gurobi_callback.log")
+        model.setParam(GRB.Param.LogFile, "gurobi_callback.log")
         model.update()
 
         model._num_vars_pre = model.NumVars
@@ -327,12 +327,14 @@ def solve_milp_crowdshipping_callback(instance_data, timelimit=None, nodelimit=N
         has_solution = model.SolCount > 0
         presolve_time = None
         logfile = "gurobi_callback.log"
+        
         try:
             with open(logfile, "r") as f:
                 for line in f:
                     if "Presolve time:" in line:
                         presolve_time = float(line.split(":")[1].replace("s", "").strip())
-        except: pass
+        except:
+            presolve_time = None
 
 
         rb_cuts = getattr(model, "_root_bound_after_cuts", None)
