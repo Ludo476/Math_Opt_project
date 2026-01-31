@@ -1,0 +1,5702 @@
+{
+    "network": {
+        "stations": [
+            {
+                "id": 0,
+                "capacity": 43,
+                "loading_cost": 0.82,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 1,
+                "capacity": 28,
+                "loading_cost": 1.87,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 2,
+                "capacity": 31,
+                "loading_cost": 1.74,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 3,
+                "capacity": 22,
+                "loading_cost": 1.09,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 4,
+                "capacity": 6,
+                "loading_cost": 0.56,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 5,
+                "capacity": 16,
+                "loading_cost": 0.84,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 6,
+                "capacity": 21,
+                "loading_cost": 0.72,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 7,
+                "capacity": 18,
+                "loading_cost": 0.85,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 8,
+                "capacity": 17,
+                "loading_cost": 0.61,
+                "is_exchange": 1,
+                "is_source": true
+            },
+            {
+                "id": 9,
+                "capacity": 26,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 10,
+                "capacity": 41,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 11,
+                "capacity": 5,
+                "loading_cost": 0.82,
+                "is_exchange": 0,
+                "is_source": true
+            },
+            {
+                "id": 12,
+                "capacity": 5,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 13,
+                "capacity": 42,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 14,
+                "capacity": 29,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 15,
+                "capacity": 4,
+                "loading_cost": 0.51,
+                "is_exchange": 0,
+                "is_source": true
+            },
+            {
+                "id": 16,
+                "capacity": 21,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 17,
+                "capacity": 8,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 18,
+                "capacity": 1,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 19,
+                "capacity": 11,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 20,
+                "capacity": 35,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 21,
+                "capacity": 13,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 22,
+                "capacity": 4,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 23,
+                "capacity": 16,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 24,
+                "capacity": 39,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 25,
+                "capacity": 45,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 26,
+                "capacity": 13,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 27,
+                "capacity": 44,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 28,
+                "capacity": 42,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 29,
+                "capacity": 12,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 30,
+                "capacity": 44,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 31,
+                "capacity": 24,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 32,
+                "capacity": 16,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 33,
+                "capacity": 2,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 34,
+                "capacity": 22,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 35,
+                "capacity": 27,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 36,
+                "capacity": 47,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 37,
+                "capacity": 23,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 38,
+                "capacity": 39,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 39,
+                "capacity": 14,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 40,
+                "capacity": 13,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 41,
+                "capacity": 14,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 42,
+                "capacity": 32,
+                "loading_cost": 0.0,
+                "is_exchange": 0,
+                "is_source": false
+            },
+            {
+                "id": 43,
+                "capacity": 13,
+                "loading_cost": 1.39,
+                "is_exchange": 0,
+                "is_source": true
+            }
+        ],
+        "delivery_lines": [
+            {
+                "from": 9,
+                "to": 8,
+                "line_id": "line_0"
+            },
+            {
+                "from": 8,
+                "to": 10,
+                "line_id": "line_0"
+            },
+            {
+                "from": 10,
+                "to": 11,
+                "line_id": "line_0"
+            },
+            {
+                "from": 11,
+                "to": 12,
+                "line_id": "line_0"
+            },
+            {
+                "from": 12,
+                "to": 0,
+                "line_id": "line_0"
+            },
+            {
+                "from": 0,
+                "to": 13,
+                "line_id": "line_0"
+            },
+            {
+                "from": 13,
+                "to": 7,
+                "line_id": "line_0"
+            },
+            {
+                "from": 14,
+                "to": 1,
+                "line_id": "line_1"
+            },
+            {
+                "from": 1,
+                "to": 15,
+                "line_id": "line_1"
+            },
+            {
+                "from": 15,
+                "to": 8,
+                "line_id": "line_1"
+            },
+            {
+                "from": 8,
+                "to": 16,
+                "line_id": "line_1"
+            },
+            {
+                "from": 16,
+                "to": 0,
+                "line_id": "line_1"
+            },
+            {
+                "from": 0,
+                "to": 17,
+                "line_id": "line_1"
+            },
+            {
+                "from": 17,
+                "to": 18,
+                "line_id": "line_1"
+            },
+            {
+                "from": 19,
+                "to": 2,
+                "line_id": "line_2"
+            },
+            {
+                "from": 2,
+                "to": 20,
+                "line_id": "line_2"
+            },
+            {
+                "from": 20,
+                "to": 21,
+                "line_id": "line_2"
+            },
+            {
+                "from": 21,
+                "to": 22,
+                "line_id": "line_2"
+            },
+            {
+                "from": 22,
+                "to": 1,
+                "line_id": "line_2"
+            },
+            {
+                "from": 1,
+                "to": 23,
+                "line_id": "line_2"
+            },
+            {
+                "from": 24,
+                "to": 3,
+                "line_id": "line_3"
+            },
+            {
+                "from": 3,
+                "to": 25,
+                "line_id": "line_3"
+            },
+            {
+                "from": 25,
+                "to": 26,
+                "line_id": "line_3"
+            },
+            {
+                "from": 26,
+                "to": 2,
+                "line_id": "line_3"
+            },
+            {
+                "from": 2,
+                "to": 27,
+                "line_id": "line_3"
+            },
+            {
+                "from": 28,
+                "to": 4,
+                "line_id": "line_4"
+            },
+            {
+                "from": 4,
+                "to": 29,
+                "line_id": "line_4"
+            },
+            {
+                "from": 29,
+                "to": 30,
+                "line_id": "line_4"
+            },
+            {
+                "from": 30,
+                "to": 3,
+                "line_id": "line_4"
+            },
+            {
+                "from": 3,
+                "to": 31,
+                "line_id": "line_4"
+            },
+            {
+                "from": 32,
+                "to": 4,
+                "line_id": "line_5"
+            },
+            {
+                "from": 4,
+                "to": 33,
+                "line_id": "line_5"
+            },
+            {
+                "from": 33,
+                "to": 5,
+                "line_id": "line_5"
+            },
+            {
+                "from": 5,
+                "to": 34,
+                "line_id": "line_5"
+            },
+            {
+                "from": 34,
+                "to": 35,
+                "line_id": "line_5"
+            },
+            {
+                "from": 36,
+                "to": 37,
+                "line_id": "line_6"
+            },
+            {
+                "from": 37,
+                "to": 6,
+                "line_id": "line_6"
+            },
+            {
+                "from": 6,
+                "to": 38,
+                "line_id": "line_6"
+            },
+            {
+                "from": 38,
+                "to": 5,
+                "line_id": "line_6"
+            },
+            {
+                "from": 5,
+                "to": 39,
+                "line_id": "line_6"
+            },
+            {
+                "from": 40,
+                "to": 41,
+                "line_id": "line_7"
+            },
+            {
+                "from": 41,
+                "to": 42,
+                "line_id": "line_7"
+            },
+            {
+                "from": 42,
+                "to": 7,
+                "line_id": "line_7"
+            },
+            {
+                "from": 7,
+                "to": 43,
+                "line_id": "line_7"
+            },
+            {
+                "from": 43,
+                "to": 6,
+                "line_id": "line_7"
+            }
+        ],
+        "crowdshippers": [
+            {
+                "origin": 18,
+                "destination": 32,
+                "departure_time": 33
+            },
+            {
+                "origin": 11,
+                "destination": 40,
+                "departure_time": 3
+            },
+            {
+                "origin": 1,
+                "destination": 43,
+                "departure_time": 31
+            },
+            {
+                "origin": 4,
+                "destination": 20,
+                "departure_time": 27
+            },
+            {
+                "origin": 21,
+                "destination": 36,
+                "departure_time": 42
+            },
+            {
+                "origin": 40,
+                "destination": 26,
+                "departure_time": 8
+            },
+            {
+                "origin": 23,
+                "destination": 16,
+                "departure_time": 31
+            },
+            {
+                "origin": 6,
+                "destination": 12,
+                "departure_time": 31
+            },
+            {
+                "origin": 7,
+                "destination": 37,
+                "departure_time": 12
+            },
+            {
+                "origin": 40,
+                "destination": 24,
+                "departure_time": 33
+            },
+            {
+                "origin": 37,
+                "destination": 38,
+                "departure_time": 9
+            },
+            {
+                "origin": 42,
+                "destination": 13,
+                "departure_time": 28
+            },
+            {
+                "origin": 16,
+                "destination": 38,
+                "departure_time": 9
+            },
+            {
+                "origin": 43,
+                "destination": 6,
+                "departure_time": 37
+            },
+            {
+                "origin": 3,
+                "destination": 8,
+                "departure_time": 35
+            },
+            {
+                "origin": 23,
+                "destination": 5,
+                "departure_time": 36
+            },
+            {
+                "origin": 14,
+                "destination": 35,
+                "departure_time": 4
+            },
+            {
+                "origin": 8,
+                "destination": 31,
+                "departure_time": 21
+            },
+            {
+                "origin": 41,
+                "destination": 38,
+                "departure_time": 22
+            },
+            {
+                "origin": 39,
+                "destination": 7,
+                "departure_time": 38
+            },
+            {
+                "origin": 2,
+                "destination": 40,
+                "departure_time": 40
+            },
+            {
+                "origin": 40,
+                "destination": 13,
+                "departure_time": 35
+            },
+            {
+                "origin": 6,
+                "destination": 35,
+                "departure_time": 26
+            },
+            {
+                "origin": 2,
+                "destination": 36,
+                "departure_time": 41
+            },
+            {
+                "origin": 25,
+                "destination": 8,
+                "departure_time": 36
+            },
+            {
+                "origin": 38,
+                "destination": 43,
+                "departure_time": 2
+            },
+            {
+                "origin": 39,
+                "destination": 36,
+                "departure_time": 5
+            },
+            {
+                "origin": 35,
+                "destination": 42,
+                "departure_time": 8
+            },
+            {
+                "origin": 17,
+                "destination": 6,
+                "departure_time": 1
+            },
+            {
+                "origin": 9,
+                "destination": 4,
+                "departure_time": 34
+            },
+            {
+                "origin": 33,
+                "destination": 7,
+                "departure_time": 12
+            },
+            {
+                "origin": 6,
+                "destination": 30,
+                "departure_time": 33
+            },
+            {
+                "origin": 15,
+                "destination": 40,
+                "departure_time": 34
+            },
+            {
+                "origin": 15,
+                "destination": 2,
+                "departure_time": 37
+            },
+            {
+                "origin": 10,
+                "destination": 18,
+                "departure_time": 20
+            },
+            {
+                "origin": 10,
+                "destination": 6,
+                "departure_time": 8
+            },
+            {
+                "origin": 40,
+                "destination": 2,
+                "departure_time": 9
+            },
+            {
+                "origin": 21,
+                "destination": 15,
+                "departure_time": 34
+            },
+            {
+                "origin": 14,
+                "destination": 43,
+                "departure_time": 18
+            },
+            {
+                "origin": 12,
+                "destination": 43,
+                "departure_time": 38
+            },
+            {
+                "origin": 24,
+                "destination": 4,
+                "departure_time": 31
+            },
+            {
+                "origin": 18,
+                "destination": 31,
+                "departure_time": 22
+            },
+            {
+                "origin": 24,
+                "destination": 25,
+                "departure_time": 10
+            },
+            {
+                "origin": 15,
+                "destination": 39,
+                "departure_time": 42
+            },
+            {
+                "origin": 20,
+                "destination": 11,
+                "departure_time": 33
+            },
+            {
+                "origin": 27,
+                "destination": 23,
+                "departure_time": 16
+            },
+            {
+                "origin": 5,
+                "destination": 31,
+                "departure_time": 7
+            },
+            {
+                "origin": 17,
+                "destination": 0,
+                "departure_time": 12
+            },
+            {
+                "origin": 34,
+                "destination": 15,
+                "departure_time": 40
+            },
+            {
+                "origin": 41,
+                "destination": 9,
+                "departure_time": 13
+            },
+            {
+                "origin": 37,
+                "destination": 39,
+                "departure_time": 36
+            },
+            {
+                "origin": 25,
+                "destination": 37,
+                "departure_time": 19
+            },
+            {
+                "origin": 27,
+                "destination": 28,
+                "departure_time": 4
+            },
+            {
+                "origin": 34,
+                "destination": 24,
+                "departure_time": 8
+            },
+            {
+                "origin": 3,
+                "destination": 37,
+                "departure_time": 9
+            },
+            {
+                "origin": 36,
+                "destination": 37,
+                "departure_time": 15
+            },
+            {
+                "origin": 31,
+                "destination": 40,
+                "departure_time": 31
+            },
+            {
+                "origin": 12,
+                "destination": 33,
+                "departure_time": 40
+            },
+            {
+                "origin": 24,
+                "destination": 9,
+                "departure_time": 26
+            },
+            {
+                "origin": 8,
+                "destination": 39,
+                "departure_time": 17
+            },
+            {
+                "origin": 41,
+                "destination": 16,
+                "departure_time": 24
+            },
+            {
+                "origin": 6,
+                "destination": 41,
+                "departure_time": 32
+            },
+            {
+                "origin": 33,
+                "destination": 9,
+                "departure_time": 16
+            },
+            {
+                "origin": 0,
+                "destination": 18,
+                "departure_time": 8
+            },
+            {
+                "origin": 36,
+                "destination": 9,
+                "departure_time": 11
+            },
+            {
+                "origin": 36,
+                "destination": 20,
+                "departure_time": 38
+            },
+            {
+                "origin": 5,
+                "destination": 34,
+                "departure_time": 25
+            },
+            {
+                "origin": 2,
+                "destination": 27,
+                "departure_time": 4
+            },
+            {
+                "origin": 20,
+                "destination": 31,
+                "departure_time": 35
+            },
+            {
+                "origin": 26,
+                "destination": 34,
+                "departure_time": 13
+            },
+            {
+                "origin": 8,
+                "destination": 30,
+                "departure_time": 34
+            },
+            {
+                "origin": 29,
+                "destination": 12,
+                "departure_time": 26
+            },
+            {
+                "origin": 5,
+                "destination": 42,
+                "departure_time": 30
+            },
+            {
+                "origin": 5,
+                "destination": 22,
+                "departure_time": 1
+            },
+            {
+                "origin": 27,
+                "destination": 23,
+                "departure_time": 38
+            },
+            {
+                "origin": 39,
+                "destination": 6,
+                "departure_time": 18
+            },
+            {
+                "origin": 12,
+                "destination": 19,
+                "departure_time": 1
+            },
+            {
+                "origin": 17,
+                "destination": 8,
+                "departure_time": 7
+            },
+            {
+                "origin": 7,
+                "destination": 3,
+                "departure_time": 26
+            },
+            {
+                "origin": 42,
+                "destination": 17,
+                "departure_time": 34
+            },
+            {
+                "origin": 23,
+                "destination": 1,
+                "departure_time": 5
+            },
+            {
+                "origin": 21,
+                "destination": 25,
+                "departure_time": 6
+            },
+            {
+                "origin": 20,
+                "destination": 18,
+                "departure_time": 41
+            },
+            {
+                "origin": 35,
+                "destination": 26,
+                "departure_time": 16
+            },
+            {
+                "origin": 0,
+                "destination": 16,
+                "departure_time": 24
+            },
+            {
+                "origin": 13,
+                "destination": 5,
+                "departure_time": 35
+            },
+            {
+                "origin": 40,
+                "destination": 42,
+                "departure_time": 33
+            },
+            {
+                "origin": 5,
+                "destination": 18,
+                "departure_time": 13
+            },
+            {
+                "origin": 14,
+                "destination": 2,
+                "departure_time": 6
+            },
+            {
+                "origin": 25,
+                "destination": 36,
+                "departure_time": 22
+            },
+            {
+                "origin": 23,
+                "destination": 6,
+                "departure_time": 32
+            },
+            {
+                "origin": 32,
+                "destination": 28,
+                "departure_time": 21
+            },
+            {
+                "origin": 41,
+                "destination": 12,
+                "departure_time": 20
+            },
+            {
+                "origin": 21,
+                "destination": 12,
+                "departure_time": 16
+            },
+            {
+                "origin": 12,
+                "destination": 25,
+                "departure_time": 30
+            },
+            {
+                "origin": 39,
+                "destination": 3,
+                "departure_time": 9
+            },
+            {
+                "origin": 15,
+                "destination": 3,
+                "departure_time": 5
+            },
+            {
+                "origin": 21,
+                "destination": 36,
+                "departure_time": 16
+            },
+            {
+                "origin": 43,
+                "destination": 3,
+                "departure_time": 11
+            },
+            {
+                "origin": 12,
+                "destination": 23,
+                "departure_time": 38
+            }
+        ],
+        "A_k": {
+            "0": [
+                "(0, 7)",
+                "(18, 7)",
+                "(7, 5)",
+                "(6, 5)",
+                "(18, 0)",
+                "(0, 32)",
+                "(0, 6)",
+                "(18, 32)",
+                "(7, 32)",
+                "(5, 32)",
+                "(18, 6)",
+                "(7, 6)",
+                "(6, 32)",
+                "(0, 5)",
+                "(18, 5)"
+            ],
+            "1": [
+                "(11, 40)",
+                "(11, 7)",
+                "(7, 40)"
+            ],
+            "2": [
+                "(7, 43)",
+                "(0, 7)",
+                "(1, 43)",
+                "(1, 7)",
+                "(1, 0)",
+                "(0, 43)"
+            ],
+            "3": [
+                "(4, 3)",
+                "(2, 20)",
+                "(3, 20)",
+                "(4, 2)",
+                "(3, 2)",
+                "(4, 20)"
+            ],
+            "5": [
+                "(4, 26)",
+                "(40, 4)",
+                "(6, 5)",
+                "(4, 3)",
+                "(40, 26)",
+                "(5, 4)",
+                "(3, 26)",
+                "(40, 6)",
+                "(6, 4)",
+                "(40, 3)",
+                "(5, 26)",
+                "(6, 3)",
+                "(6, 26)",
+                "(5, 3)",
+                "(40, 5)"
+            ],
+            "6": [
+                "(23, 16)",
+                "(23, 1)",
+                "(1, 16)"
+            ],
+            "7": [
+                "(6, 12)",
+                "(6, 7)",
+                "(7, 12)"
+            ],
+            "8": [
+                "(7, 37)",
+                "(7, 6)",
+                "(6, 37)"
+            ],
+            "10": [
+                "(37, 38)"
+            ],
+            "11": [
+                "(42, 13)",
+                "(42, 7)",
+                "(7, 13)"
+            ],
+            "12": [
+                "(16, 7)",
+                "(0, 7)",
+                "(16, 0)",
+                "(16, 38)",
+                "(0, 38)",
+                "(16, 6)",
+                "(0, 6)",
+                "(7, 38)",
+                "(7, 6)",
+                "(6, 38)"
+            ],
+            "13": [
+                "(43, 6)"
+            ],
+            "14": [
+                "(3, 8)",
+                "(2, 1)",
+                "(3, 1)",
+                "(1, 8)",
+                "(3, 2)",
+                "(2, 8)"
+            ],
+            "16": [
+                "(2, 4)",
+                "(1, 2)",
+                "(14, 4)",
+                "(3, 4)",
+                "(4, 35)",
+                "(14, 1)",
+                "(1, 4)",
+                "(2, 35)",
+                "(2, 3)",
+                "(14, 35)",
+                "(3, 35)",
+                "(14, 3)",
+                "(1, 35)",
+                "(14, 2)",
+                "(1, 3)"
+            ],
+            "17": [
+                "(1, 2)",
+                "(1, 31)",
+                "(8, 1)",
+                "(2, 3)",
+                "(8, 3)",
+                "(2, 31)",
+                "(8, 2)",
+                "(8, 31)",
+                "(3, 31)",
+                "(1, 3)"
+            ],
+            "18": [
+                "(41, 6)",
+                "(41, 38)",
+                "(6, 38)"
+            ],
+            "19": [
+                "(39, 6)",
+                "(39, 7)",
+                "(6, 7)"
+            ],
+            "21": [
+                "(7, 13)",
+                "(40, 7)",
+                "(40, 13)"
+            ],
+            "22": [
+                "(6, 35)",
+                "(5, 35)",
+                "(6, 5)"
+            ],
+            "24": [
+                "(2, 1)",
+                "(1, 8)",
+                "(25, 2)",
+                "(25, 8)",
+                "(25, 1)",
+                "(2, 8)"
+            ],
+            "25": [
+                "(6, 43)",
+                "(38, 43)",
+                "(38, 6)"
+            ],
+            "26": [
+                "(39, 36)"
+            ],
+            "27": [
+                "(35, 42)",
+                "(35, 6)",
+                "(5, 42)",
+                "(6, 42)",
+                "(5, 6)",
+                "(35, 5)"
+            ],
+            "28": [
+                "(0, 7)",
+                "(17, 7)",
+                "(17, 0)",
+                "(0, 6)",
+                "(17, 6)",
+                "(7, 6)"
+            ],
+            "30": [
+                "(33, 7)",
+                "(5, 7)",
+                "(33, 6)",
+                "(6, 7)",
+                "(5, 6)",
+                "(33, 5)"
+            ],
+            "31": [
+                "(6, 5)",
+                "(5, 30)",
+                "(6, 30)",
+                "(5, 4)",
+                "(6, 4)",
+                "(4, 30)"
+            ],
+            "32": [
+                "(0, 7)",
+                "(15, 40)",
+                "(15, 7)",
+                "(15, 0)",
+                "(0, 40)",
+                "(7, 40)"
+            ],
+            "33": [
+                "(1, 2)",
+                "(15, 1)",
+                "(15, 2)"
+            ],
+            "34": [
+                "(0, 18)",
+                "(10, 0)",
+                "(10, 18)"
+            ],
+            "35": [
+                "(7, 6)",
+                "(10, 6)",
+                "(10, 7)"
+            ],
+            "36": [
+                "(0, 1)",
+                "(1, 2)",
+                "(7, 1)",
+                "(40, 1)",
+                "(40, 7)",
+                "(7, 0)",
+                "(40, 0)",
+                "(0, 2)",
+                "(7, 2)",
+                "(40, 2)"
+            ],
+            "37": [
+                "(21, 15)",
+                "(1, 15)",
+                "(21, 1)"
+            ],
+            "38": [
+                "(7, 43)",
+                "(0, 7)",
+                "(14, 43)",
+                "(14, 7)",
+                "(14, 0)",
+                "(0, 43)"
+            ],
+            "39": [
+                "(7, 43)",
+                "(12, 7)",
+                "(12, 43)"
+            ],
+            "40": [
+                "(24, 3)",
+                "(24, 4)",
+                "(3, 4)"
+            ],
+            "42": [
+                "(24, 25)"
+            ],
+            "44": [
+                "(20, 11)",
+                "(20, 8)",
+                "(1, 11)",
+                "(20, 1)",
+                "(1, 8)",
+                "(8, 11)"
+            ],
+            "45": [
+                "(27, 2)",
+                "(2, 23)",
+                "(27, 23)"
+            ],
+            "46": [
+                "(5, 31)",
+                "(5, 4)",
+                "(4, 31)"
+            ],
+            "47": [
+                "(17, 0)"
+            ],
+            "49": [
+                "(41, 8)",
+                "(41, 7)",
+                "(7, 0)",
+                "(0, 9)",
+                "(41, 0)",
+                "(7, 9)",
+                "(8, 9)",
+                "(41, 9)",
+                "(0, 8)",
+                "(7, 8)"
+            ],
+            "50": [
+                "(37, 39)"
+            ],
+            "51": [
+                "(5, 37)",
+                "(3, 4)",
+                "(25, 3)",
+                "(25, 5)",
+                "(4, 5)",
+                "(25, 37)",
+                "(4, 37)",
+                "(3, 37)",
+                "(3, 5)",
+                "(25, 4)"
+            ],
+            "52": [
+                "(27, 3)",
+                "(27, 28)",
+                "(3, 28)"
+            ],
+            "53": [
+                "(34, 4)",
+                "(3, 24)",
+                "(4, 3)",
+                "(34, 3)",
+                "(4, 24)",
+                "(34, 24)"
+            ],
+            "54": [
+                "(5, 37)",
+                "(3, 4)",
+                "(4, 5)",
+                "(4, 37)",
+                "(3, 37)",
+                "(3, 5)"
+            ],
+            "55": [
+                "(36, 37)"
+            ],
+            "57": [
+                "(12, 33)",
+                "(7, 33)",
+                "(12, 7)",
+                "(6, 5)",
+                "(5, 33)",
+                "(6, 33)",
+                "(12, 6)",
+                "(7, 6)",
+                "(12, 5)",
+                "(7, 5)"
+            ],
+            "58": [
+                "(24, 8)",
+                "(2, 1)",
+                "(24, 1)",
+                "(1, 8)",
+                "(2, 9)",
+                "(24, 9)",
+                "(8, 9)",
+                "(24, 2)",
+                "(1, 9)",
+                "(2, 8)"
+            ],
+            "59": [
+                "(0, 7)",
+                "(0, 39)",
+                "(8, 7)",
+                "(7, 39)",
+                "(8, 39)",
+                "(8, 0)",
+                "(0, 6)",
+                "(6, 39)",
+                "(7, 6)",
+                "(8, 6)"
+            ],
+            "60": [
+                "(0, 16)",
+                "(41, 7)",
+                "(7, 16)",
+                "(7, 0)",
+                "(41, 16)",
+                "(41, 0)"
+            ],
+            "61": [
+                "(6, 41)"
+            ],
+            "62": [
+                "(5, 7)",
+                "(8, 9)",
+                "(33, 5)",
+                "(0, 8)",
+                "(33, 8)",
+                "(6, 8)",
+                "(5, 0)",
+                "(5, 6)",
+                "(5, 9)",
+                "(33, 7)",
+                "(7, 0)",
+                "(7, 9)",
+                "(6, 7)",
+                "(5, 8)",
+                "(33, 0)",
+                "(0, 9)",
+                "(33, 9)",
+                "(33, 6)",
+                "(6, 0)",
+                "(6, 9)",
+                "(7, 8)"
+            ],
+            "63": [
+                "(0, 18)"
+            ],
+            "64": [
+                "(36, 8)",
+                "(36, 7)",
+                "(6, 8)",
+                "(7, 0)",
+                "(0, 9)",
+                "(36, 0)",
+                "(36, 6)",
+                "(6, 7)",
+                "(7, 9)",
+                "(8, 9)",
+                "(36, 9)",
+                "(6, 0)",
+                "(0, 8)",
+                "(6, 9)",
+                "(7, 8)"
+            ],
+            "66": [
+                "(5, 34)"
+            ],
+            "67": [
+                "(2, 27)"
+            ],
+            "68": [
+                "(2, 3)",
+                "(20, 3)",
+                "(2, 31)",
+                "(3, 31)",
+                "(20, 2)",
+                "(20, 31)"
+            ],
+            "69": [
+                "(26, 34)",
+                "(3, 4)",
+                "(26, 4)",
+                "(4, 34)",
+                "(26, 3)",
+                "(3, 34)"
+            ],
+            "70": [
+                "(8, 30)",
+                "(3, 30)",
+                "(1, 2)",
+                "(8, 1)",
+                "(1, 30)",
+                "(2, 3)",
+                "(8, 3)",
+                "(8, 2)",
+                "(1, 3)",
+                "(2, 30)"
+            ],
+            "71": [
+                "(6, 12)",
+                "(29, 4)",
+                "(5, 12)",
+                "(29, 7)",
+                "(4, 6)",
+                "(4, 12)",
+                "(29, 6)",
+                "(5, 7)",
+                "(6, 7)",
+                "(4, 5)",
+                "(7, 12)",
+                "(29, 12)",
+                "(5, 6)",
+                "(29, 5)",
+                "(4, 7)"
+            ],
+            "72": [
+                "(5, 42)",
+                "(6, 42)",
+                "(5, 6)"
+            ],
+            "73": [
+                "(4, 3)",
+                "(5, 4)",
+                "(4, 22)",
+                "(4, 2)",
+                "(2, 22)",
+                "(3, 22)",
+                "(5, 3)",
+                "(3, 2)",
+                "(5, 22)",
+                "(5, 2)"
+            ],
+            "74": [
+                "(27, 2)",
+                "(2, 23)",
+                "(27, 23)"
+            ],
+            "75": [
+                "(39, 6)"
+            ],
+            "76": [
+                "(12, 1)",
+                "(8, 1)",
+                "(12, 19)",
+                "(8, 19)",
+                "(1, 19)",
+                "(12, 8)"
+            ],
+            "77": [
+                "(17, 8)"
+            ],
+            "78": [
+                "(7, 4)",
+                "(6, 5)",
+                "(4, 3)",
+                "(5, 4)",
+                "(6, 4)",
+                "(7, 3)",
+                "(7, 6)",
+                "(5, 3)",
+                "(7, 5)",
+                "(6, 3)"
+            ],
+            "79": [
+                "(42, 0)",
+                "(7, 17)",
+                "(7, 0)",
+                "(42, 17)",
+                "(42, 7)",
+                "(0, 17)"
+            ],
+            "80": [
+                "(23, 1)"
+            ],
+            "81": [
+                "(21, 2)",
+                "(21, 25)",
+                "(2, 25)"
+            ],
+            "83": [
+                "(4, 26)",
+                "(35, 4)",
+                "(4, 3)",
+                "(35, 26)",
+                "(3, 26)",
+                "(35, 3)"
+            ],
+            "84": [
+                "(0, 16)"
+            ],
+            "85": [
+                "(6, 5)",
+                "(13, 7)",
+                "(7, 6)",
+                "(13, 6)",
+                "(7, 5)",
+                "(13, 5)"
+            ],
+            "86": [
+                "(40, 42)"
+            ],
+            "87": [
+                "(6, 18)",
+                "(7, 0)",
+                "(5, 7)",
+                "(6, 7)",
+                "(5, 0)",
+                "(5, 6)",
+                "(6, 0)",
+                "(0, 18)",
+                "(7, 18)",
+                "(5, 18)"
+            ],
+            "88": [
+                "(14, 1)",
+                "(14, 2)",
+                "(1, 2)"
+            ],
+            "89": [
+                "(3, 4)",
+                "(25, 3)",
+                "(3, 36)",
+                "(4, 36)",
+                "(5, 36)",
+                "(25, 5)",
+                "(4, 5)",
+                "(25, 36)",
+                "(3, 5)",
+                "(25, 4)"
+            ],
+            "90": [
+                "(0, 7)",
+                "(23, 1)",
+                "(23, 7)",
+                "(23, 0)",
+                "(0, 6)",
+                "(23, 6)",
+                "(1, 7)",
+                "(7, 6)",
+                "(1, 0)",
+                "(1, 6)"
+            ],
+            "91": [
+                "(32, 4)",
+                "(4, 28)",
+                "(32, 28)"
+            ],
+            "92": [
+                "(41, 12)",
+                "(41, 7)",
+                "(7, 12)"
+            ],
+            "93": [
+                "(1, 12)",
+                "(1, 8)",
+                "(21, 12)",
+                "(8, 12)",
+                "(21, 8)",
+                "(21, 1)"
+            ],
+            "94": [
+                "(12, 1)",
+                "(1, 2)",
+                "(8, 1)",
+                "(8, 25)",
+                "(12, 2)",
+                "(12, 25)",
+                "(2, 25)",
+                "(8, 2)",
+                "(1, 25)",
+                "(12, 8)"
+            ],
+            "95": [
+                "(39, 5)",
+                "(4, 3)",
+                "(5, 4)",
+                "(39, 4)",
+                "(5, 3)",
+                "(39, 3)"
+            ],
+            "96": [
+                "(1, 2)",
+                "(15, 1)",
+                "(2, 3)",
+                "(15, 3)",
+                "(1, 3)",
+                "(15, 2)"
+            ],
+            "97": [
+                "(21, 36)",
+                "(2, 4)",
+                "(3, 4)",
+                "(2, 36)",
+                "(21, 3)",
+                "(3, 36)",
+                "(4, 36)",
+                "(5, 36)",
+                "(21, 2)",
+                "(2, 3)",
+                "(4, 5)",
+                "(21, 5)",
+                "(2, 5)",
+                "(21, 4)",
+                "(3, 5)"
+            ],
+            "98": [
+                "(43, 5)",
+                "(6, 5)",
+                "(4, 3)",
+                "(43, 4)",
+                "(5, 4)",
+                "(5, 3)",
+                "(6, 4)",
+                "(43, 6)",
+                "(43, 3)",
+                "(6, 3)"
+            ],
+            "99": [
+                "(12, 1)",
+                "(12, 23)",
+                "(8, 23)",
+                "(8, 1)",
+                "(1, 23)",
+                "(12, 8)"
+            ]
+        },
+        "arc_time_k": {
+            "(18, 0, 0)": [
+                33,
+                42
+            ],
+            "(18, 7, 0)": [
+                33,
+                53
+            ],
+            "(18, 6, 0)": [
+                33,
+                60
+            ],
+            "(18, 5, 0)": [
+                33,
+                69
+            ],
+            "(18, 32, 0)": [
+                33,
+                84
+            ],
+            "(0, 7, 0)": [
+                42,
+                53
+            ],
+            "(0, 6, 0)": [
+                42,
+                60
+            ],
+            "(0, 5, 0)": [
+                42,
+                69
+            ],
+            "(0, 32, 0)": [
+                42,
+                84
+            ],
+            "(7, 6, 0)": [
+                53,
+                60
+            ],
+            "(7, 5, 0)": [
+                53,
+                69
+            ],
+            "(7, 32, 0)": [
+                53,
+                84
+            ],
+            "(6, 5, 0)": [
+                60,
+                69
+            ],
+            "(6, 32, 0)": [
+                60,
+                84
+            ],
+            "(5, 32, 0)": [
+                69,
+                84
+            ],
+            "(11, 7, 1)": [
+                3,
+                22
+            ],
+            "(11, 40, 1)": [
+                3,
+                34
+            ],
+            "(7, 40, 1)": [
+                22,
+                34
+            ],
+            "(1, 0, 2)": [
+                31,
+                59
+            ],
+            "(1, 7, 2)": [
+                31,
+                70
+            ],
+            "(1, 43, 2)": [
+                31,
+                75
+            ],
+            "(0, 7, 2)": [
+                59,
+                70
+            ],
+            "(0, 43, 2)": [
+                59,
+                75
+            ],
+            "(7, 43, 2)": [
+                70,
+                75
+            ],
+            "(4, 3, 3)": [
+                27,
+                42
+            ],
+            "(4, 2, 3)": [
+                27,
+                55
+            ],
+            "(4, 20, 3)": [
+                27,
+                57
+            ],
+            "(3, 2, 3)": [
+                42,
+                55
+            ],
+            "(3, 20, 3)": [
+                42,
+                57
+            ],
+            "(2, 20, 3)": [
+                55,
+                57
+            ],
+            "(40, 6, 5)": [
+                8,
+                27
+            ],
+            "(40, 5, 5)": [
+                8,
+                36
+            ],
+            "(40, 4, 5)": [
+                8,
+                44
+            ],
+            "(40, 3, 5)": [
+                8,
+                59
+            ],
+            "(40, 26, 5)": [
+                8,
+                71
+            ],
+            "(6, 5, 5)": [
+                27,
+                36
+            ],
+            "(6, 4, 5)": [
+                27,
+                44
+            ],
+            "(6, 3, 5)": [
+                27,
+                59
+            ],
+            "(6, 26, 5)": [
+                27,
+                71
+            ],
+            "(5, 4, 5)": [
+                36,
+                44
+            ],
+            "(5, 3, 5)": [
+                36,
+                59
+            ],
+            "(5, 26, 5)": [
+                36,
+                71
+            ],
+            "(4, 3, 5)": [
+                44,
+                59
+            ],
+            "(4, 26, 5)": [
+                44,
+                71
+            ],
+            "(3, 26, 5)": [
+                59,
+                71
+            ],
+            "(23, 1, 6)": [
+                31,
+                36
+            ],
+            "(23, 16, 6)": [
+                31,
+                53
+            ],
+            "(1, 16, 6)": [
+                36,
+                53
+            ],
+            "(6, 7, 7)": [
+                31,
+                38
+            ],
+            "(6, 12, 7)": [
+                31,
+                50
+            ],
+            "(7, 12, 7)": [
+                38,
+                50
+            ],
+            "(7, 6, 8)": [
+                12,
+                19
+            ],
+            "(7, 37, 8)": [
+                12,
+                20
+            ],
+            "(6, 37, 8)": [
+                19,
+                20
+            ],
+            "(37, 38, 10)": [
+                9,
+                15
+            ],
+            "(42, 7, 11)": [
+                28,
+                29
+            ],
+            "(42, 13, 11)": [
+                28,
+                32
+            ],
+            "(7, 13, 11)": [
+                29,
+                32
+            ],
+            "(16, 0, 12)": [
+                9,
+                20
+            ],
+            "(16, 7, 12)": [
+                9,
+                31
+            ],
+            "(16, 6, 12)": [
+                9,
+                38
+            ],
+            "(16, 38, 12)": [
+                9,
+                43
+            ],
+            "(0, 7, 12)": [
+                20,
+                31
+            ],
+            "(0, 6, 12)": [
+                20,
+                38
+            ],
+            "(0, 38, 12)": [
+                20,
+                43
+            ],
+            "(7, 6, 12)": [
+                31,
+                38
+            ],
+            "(7, 38, 12)": [
+                31,
+                43
+            ],
+            "(6, 38, 12)": [
+                38,
+                43
+            ],
+            "(43, 6, 13)": [
+                37,
+                39
+            ],
+            "(3, 2, 14)": [
+                35,
+                48
+            ],
+            "(3, 1, 14)": [
+                35,
+                60
+            ],
+            "(3, 8, 14)": [
+                35,
+                71
+            ],
+            "(2, 1, 14)": [
+                48,
+                60
+            ],
+            "(2, 8, 14)": [
+                48,
+                71
+            ],
+            "(1, 8, 14)": [
+                60,
+                71
+            ],
+            "(14, 1, 16)": [
+                4,
+                9
+            ],
+            "(14, 2, 16)": [
+                4,
+                21
+            ],
+            "(14, 3, 16)": [
+                4,
+                34
+            ],
+            "(14, 4, 16)": [
+                4,
+                49
+            ],
+            "(14, 35, 16)": [
+                4,
+                68
+            ],
+            "(1, 2, 16)": [
+                9,
+                21
+            ],
+            "(1, 3, 16)": [
+                9,
+                34
+            ],
+            "(1, 4, 16)": [
+                9,
+                49
+            ],
+            "(1, 35, 16)": [
+                9,
+                68
+            ],
+            "(2, 3, 16)": [
+                21,
+                34
+            ],
+            "(2, 4, 16)": [
+                21,
+                49
+            ],
+            "(2, 35, 16)": [
+                21,
+                68
+            ],
+            "(3, 4, 16)": [
+                34,
+                49
+            ],
+            "(3, 35, 16)": [
+                34,
+                68
+            ],
+            "(4, 35, 16)": [
+                49,
+                68
+            ],
+            "(8, 1, 17)": [
+                21,
+                32
+            ],
+            "(8, 2, 17)": [
+                21,
+                44
+            ],
+            "(8, 3, 17)": [
+                21,
+                57
+            ],
+            "(8, 31, 17)": [
+                21,
+                61
+            ],
+            "(1, 2, 17)": [
+                32,
+                44
+            ],
+            "(1, 3, 17)": [
+                32,
+                57
+            ],
+            "(1, 31, 17)": [
+                32,
+                61
+            ],
+            "(2, 3, 17)": [
+                44,
+                57
+            ],
+            "(2, 31, 17)": [
+                44,
+                61
+            ],
+            "(3, 31, 17)": [
+                57,
+                61
+            ],
+            "(41, 6, 18)": [
+                22,
+                35
+            ],
+            "(41, 38, 18)": [
+                22,
+                40
+            ],
+            "(6, 38, 18)": [
+                35,
+                40
+            ],
+            "(39, 6, 19)": [
+                38,
+                49
+            ],
+            "(39, 7, 19)": [
+                38,
+                56
+            ],
+            "(6, 7, 19)": [
+                49,
+                56
+            ],
+            "(40, 7, 21)": [
+                35,
+                47
+            ],
+            "(40, 13, 21)": [
+                35,
+                50
+            ],
+            "(7, 13, 21)": [
+                47,
+                50
+            ],
+            "(6, 5, 22)": [
+                26,
+                35
+            ],
+            "(6, 35, 22)": [
+                26,
+                46
+            ],
+            "(5, 35, 22)": [
+                35,
+                46
+            ],
+            "(25, 2, 24)": [
+                36,
+                43
+            ],
+            "(25, 1, 24)": [
+                36,
+                55
+            ],
+            "(25, 8, 24)": [
+                36,
+                66
+            ],
+            "(2, 1, 24)": [
+                43,
+                55
+            ],
+            "(2, 8, 24)": [
+                43,
+                66
+            ],
+            "(1, 8, 24)": [
+                55,
+                66
+            ],
+            "(38, 6, 25)": [
+                2,
+                7
+            ],
+            "(38, 43, 25)": [
+                2,
+                9
+            ],
+            "(6, 43, 25)": [
+                7,
+                9
+            ],
+            "(39, 36, 26)": [
+                5,
+                23
+            ],
+            "(35, 5, 27)": [
+                8,
+                19
+            ],
+            "(35, 6, 27)": [
+                8,
+                28
+            ],
+            "(35, 42, 27)": [
+                8,
+                36
+            ],
+            "(5, 6, 27)": [
+                19,
+                28
+            ],
+            "(5, 42, 27)": [
+                19,
+                36
+            ],
+            "(6, 42, 27)": [
+                28,
+                36
+            ],
+            "(17, 0, 28)": [
+                1,
+                2
+            ],
+            "(17, 7, 28)": [
+                1,
+                13
+            ],
+            "(17, 6, 28)": [
+                1,
+                20
+            ],
+            "(0, 7, 28)": [
+                2,
+                13
+            ],
+            "(0, 6, 28)": [
+                2,
+                20
+            ],
+            "(7, 6, 28)": [
+                13,
+                20
+            ],
+            "(33, 5, 30)": [
+                12,
+                17
+            ],
+            "(33, 6, 30)": [
+                12,
+                26
+            ],
+            "(33, 7, 30)": [
+                12,
+                33
+            ],
+            "(5, 6, 30)": [
+                17,
+                26
+            ],
+            "(5, 7, 30)": [
+                17,
+                33
+            ],
+            "(6, 7, 30)": [
+                26,
+                33
+            ],
+            "(6, 5, 31)": [
+                33,
+                42
+            ],
+            "(6, 4, 31)": [
+                33,
+                50
+            ],
+            "(6, 30, 31)": [
+                33,
+                63
+            ],
+            "(5, 4, 31)": [
+                42,
+                50
+            ],
+            "(5, 30, 31)": [
+                42,
+                63
+            ],
+            "(4, 30, 31)": [
+                50,
+                63
+            ],
+            "(15, 0, 32)": [
+                34,
+                54
+            ],
+            "(15, 7, 32)": [
+                34,
+                65
+            ],
+            "(15, 40, 32)": [
+                34,
+                77
+            ],
+            "(0, 7, 32)": [
+                54,
+                65
+            ],
+            "(0, 40, 32)": [
+                54,
+                77
+            ],
+            "(7, 40, 32)": [
+                65,
+                77
+            ],
+            "(15, 1, 33)": [
+                37,
+                45
+            ],
+            "(15, 2, 33)": [
+                37,
+                57
+            ],
+            "(1, 2, 33)": [
+                45,
+                57
+            ],
+            "(10, 0, 34)": [
+                20,
+                34
+            ],
+            "(10, 18, 34)": [
+                20,
+                43
+            ],
+            "(0, 18, 34)": [
+                34,
+                43
+            ],
+            "(10, 7, 35)": [
+                8,
+                33
+            ],
+            "(10, 6, 35)": [
+                8,
+                40
+            ],
+            "(7, 6, 35)": [
+                33,
+                40
+            ],
+            "(40, 7, 36)": [
+                9,
+                21
+            ],
+            "(40, 0, 36)": [
+                9,
+                32
+            ],
+            "(40, 1, 36)": [
+                9,
+                60
+            ],
+            "(40, 2, 36)": [
+                9,
+                72
+            ],
+            "(7, 0, 36)": [
+                21,
+                32
+            ],
+            "(7, 1, 36)": [
+                21,
+                60
+            ],
+            "(7, 2, 36)": [
+                21,
+                72
+            ],
+            "(0, 1, 36)": [
+                32,
+                60
+            ],
+            "(0, 2, 36)": [
+                32,
+                72
+            ],
+            "(1, 2, 36)": [
+                60,
+                72
+            ],
+            "(21, 1, 37)": [
+                34,
+                41
+            ],
+            "(21, 15, 37)": [
+                34,
+                49
+            ],
+            "(1, 15, 37)": [
+                41,
+                49
+            ],
+            "(14, 0, 38)": [
+                18,
+                51
+            ],
+            "(14, 7, 38)": [
+                18,
+                62
+            ],
+            "(14, 43, 38)": [
+                18,
+                67
+            ],
+            "(0, 7, 38)": [
+                51,
+                62
+            ],
+            "(0, 43, 38)": [
+                51,
+                67
+            ],
+            "(7, 43, 38)": [
+                62,
+                67
+            ],
+            "(12, 7, 39)": [
+                38,
+                50
+            ],
+            "(12, 43, 39)": [
+                38,
+                55
+            ],
+            "(7, 43, 39)": [
+                50,
+                55
+            ],
+            "(24, 3, 40)": [
+                31,
+                37
+            ],
+            "(24, 4, 40)": [
+                31,
+                52
+            ],
+            "(3, 4, 40)": [
+                37,
+                52
+            ],
+            "(24, 25, 42)": [
+                10,
+                22
+            ],
+            "(20, 1, 44)": [
+                33,
+                43
+            ],
+            "(20, 8, 44)": [
+                33,
+                54
+            ],
+            "(20, 11, 44)": [
+                33,
+                64
+            ],
+            "(1, 8, 44)": [
+                43,
+                54
+            ],
+            "(1, 11, 44)": [
+                43,
+                64
+            ],
+            "(8, 11, 44)": [
+                54,
+                64
+            ],
+            "(27, 2, 45)": [
+                16,
+                22
+            ],
+            "(27, 23, 45)": [
+                16,
+                39
+            ],
+            "(2, 23, 45)": [
+                22,
+                39
+            ],
+            "(5, 4, 46)": [
+                7,
+                15
+            ],
+            "(5, 31, 46)": [
+                7,
+                34
+            ],
+            "(4, 31, 46)": [
+                15,
+                34
+            ],
+            "(17, 0, 47)": [
+                12,
+                13
+            ],
+            "(41, 7, 49)": [
+                13,
+                19
+            ],
+            "(41, 0, 49)": [
+                13,
+                30
+            ],
+            "(41, 8, 49)": [
+                13,
+                47
+            ],
+            "(41, 9, 49)": [
+                13,
+                50
+            ],
+            "(7, 0, 49)": [
+                19,
+                30
+            ],
+            "(7, 8, 49)": [
+                19,
+                47
+            ],
+            "(7, 9, 49)": [
+                19,
+                50
+            ],
+            "(0, 8, 49)": [
+                30,
+                47
+            ],
+            "(0, 9, 49)": [
+                30,
+                50
+            ],
+            "(8, 9, 49)": [
+                47,
+                50
+            ],
+            "(37, 39, 50)": [
+                36,
+                48
+            ],
+            "(25, 3, 51)": [
+                19,
+                25
+            ],
+            "(25, 4, 51)": [
+                19,
+                40
+            ],
+            "(25, 5, 51)": [
+                19,
+                48
+            ],
+            "(25, 37, 51)": [
+                19,
+                58
+            ],
+            "(3, 4, 51)": [
+                25,
+                40
+            ],
+            "(3, 5, 51)": [
+                25,
+                48
+            ],
+            "(3, 37, 51)": [
+                25,
+                58
+            ],
+            "(4, 5, 51)": [
+                40,
+                48
+            ],
+            "(4, 37, 51)": [
+                40,
+                58
+            ],
+            "(5, 37, 51)": [
+                48,
+                58
+            ],
+            "(27, 3, 52)": [
+                4,
+                23
+            ],
+            "(27, 28, 52)": [
+                4,
+                39
+            ],
+            "(3, 28, 52)": [
+                23,
+                39
+            ],
+            "(34, 4, 53)": [
+                8,
+                19
+            ],
+            "(34, 3, 53)": [
+                8,
+                34
+            ],
+            "(34, 24, 53)": [
+                8,
+                40
+            ],
+            "(4, 3, 53)": [
+                19,
+                34
+            ],
+            "(4, 24, 53)": [
+                19,
+                40
+            ],
+            "(3, 24, 53)": [
+                34,
+                40
+            ],
+            "(3, 4, 54)": [
+                9,
+                24
+            ],
+            "(3, 5, 54)": [
+                9,
+                32
+            ],
+            "(3, 37, 54)": [
+                9,
+                42
+            ],
+            "(4, 5, 54)": [
+                24,
+                32
+            ],
+            "(4, 37, 54)": [
+                24,
+                42
+            ],
+            "(5, 37, 54)": [
+                32,
+                42
+            ],
+            "(36, 37, 55)": [
+                15,
+                21
+            ],
+            "(12, 7, 57)": [
+                40,
+                52
+            ],
+            "(12, 6, 57)": [
+                40,
+                59
+            ],
+            "(12, 5, 57)": [
+                40,
+                68
+            ],
+            "(12, 33, 57)": [
+                40,
+                73
+            ],
+            "(7, 6, 57)": [
+                52,
+                59
+            ],
+            "(7, 5, 57)": [
+                52,
+                68
+            ],
+            "(7, 33, 57)": [
+                52,
+                73
+            ],
+            "(6, 5, 57)": [
+                59,
+                68
+            ],
+            "(6, 33, 57)": [
+                59,
+                73
+            ],
+            "(5, 33, 57)": [
+                68,
+                73
+            ],
+            "(24, 2, 58)": [
+                26,
+                45
+            ],
+            "(24, 1, 58)": [
+                26,
+                57
+            ],
+            "(24, 8, 58)": [
+                26,
+                68
+            ],
+            "(24, 9, 58)": [
+                26,
+                71
+            ],
+            "(2, 1, 58)": [
+                45,
+                57
+            ],
+            "(2, 8, 58)": [
+                45,
+                68
+            ],
+            "(2, 9, 58)": [
+                45,
+                71
+            ],
+            "(1, 8, 58)": [
+                57,
+                68
+            ],
+            "(1, 9, 58)": [
+                57,
+                71
+            ],
+            "(8, 9, 58)": [
+                68,
+                71
+            ],
+            "(8, 0, 59)": [
+                17,
+                34
+            ],
+            "(8, 7, 59)": [
+                17,
+                45
+            ],
+            "(8, 6, 59)": [
+                17,
+                52
+            ],
+            "(8, 39, 59)": [
+                17,
+                63
+            ],
+            "(0, 7, 59)": [
+                34,
+                45
+            ],
+            "(0, 6, 59)": [
+                34,
+                52
+            ],
+            "(0, 39, 59)": [
+                34,
+                63
+            ],
+            "(7, 6, 59)": [
+                45,
+                52
+            ],
+            "(7, 39, 59)": [
+                45,
+                63
+            ],
+            "(6, 39, 59)": [
+                52,
+                63
+            ],
+            "(41, 7, 60)": [
+                24,
+                30
+            ],
+            "(41, 0, 60)": [
+                24,
+                41
+            ],
+            "(41, 16, 60)": [
+                24,
+                52
+            ],
+            "(7, 0, 60)": [
+                30,
+                41
+            ],
+            "(7, 16, 60)": [
+                30,
+                52
+            ],
+            "(0, 16, 60)": [
+                41,
+                52
+            ],
+            "(6, 41, 61)": [
+                32,
+                45
+            ],
+            "(33, 5, 62)": [
+                16,
+                21
+            ],
+            "(33, 6, 62)": [
+                16,
+                30
+            ],
+            "(33, 7, 62)": [
+                16,
+                37
+            ],
+            "(33, 0, 62)": [
+                16,
+                48
+            ],
+            "(33, 8, 62)": [
+                16,
+                65
+            ],
+            "(33, 9, 62)": [
+                16,
+                68
+            ],
+            "(5, 6, 62)": [
+                21,
+                30
+            ],
+            "(5, 7, 62)": [
+                21,
+                37
+            ],
+            "(5, 0, 62)": [
+                21,
+                48
+            ],
+            "(5, 8, 62)": [
+                21,
+                65
+            ],
+            "(5, 9, 62)": [
+                21,
+                68
+            ],
+            "(6, 7, 62)": [
+                30,
+                37
+            ],
+            "(6, 0, 62)": [
+                30,
+                48
+            ],
+            "(6, 8, 62)": [
+                30,
+                65
+            ],
+            "(6, 9, 62)": [
+                30,
+                68
+            ],
+            "(7, 0, 62)": [
+                37,
+                48
+            ],
+            "(7, 8, 62)": [
+                37,
+                65
+            ],
+            "(7, 9, 62)": [
+                37,
+                68
+            ],
+            "(0, 8, 62)": [
+                48,
+                65
+            ],
+            "(0, 9, 62)": [
+                48,
+                68
+            ],
+            "(8, 9, 62)": [
+                65,
+                68
+            ],
+            "(0, 18, 63)": [
+                8,
+                17
+            ],
+            "(36, 6, 64)": [
+                11,
+                18
+            ],
+            "(36, 7, 64)": [
+                11,
+                25
+            ],
+            "(36, 0, 64)": [
+                11,
+                36
+            ],
+            "(36, 8, 64)": [
+                11,
+                53
+            ],
+            "(36, 9, 64)": [
+                11,
+                56
+            ],
+            "(6, 7, 64)": [
+                18,
+                25
+            ],
+            "(6, 0, 64)": [
+                18,
+                36
+            ],
+            "(6, 8, 64)": [
+                18,
+                53
+            ],
+            "(6, 9, 64)": [
+                18,
+                56
+            ],
+            "(7, 0, 64)": [
+                25,
+                36
+            ],
+            "(7, 8, 64)": [
+                25,
+                53
+            ],
+            "(7, 9, 64)": [
+                25,
+                56
+            ],
+            "(0, 8, 64)": [
+                36,
+                53
+            ],
+            "(0, 9, 64)": [
+                36,
+                56
+            ],
+            "(8, 9, 64)": [
+                53,
+                56
+            ],
+            "(5, 34, 66)": [
+                25,
+                28
+            ],
+            "(2, 27, 67)": [
+                4,
+                10
+            ],
+            "(20, 2, 68)": [
+                35,
+                37
+            ],
+            "(20, 3, 68)": [
+                35,
+                50
+            ],
+            "(20, 31, 68)": [
+                35,
+                54
+            ],
+            "(2, 3, 68)": [
+                37,
+                50
+            ],
+            "(2, 31, 68)": [
+                37,
+                54
+            ],
+            "(3, 31, 68)": [
+                50,
+                54
+            ],
+            "(26, 3, 69)": [
+                13,
+                25
+            ],
+            "(26, 4, 69)": [
+                13,
+                40
+            ],
+            "(26, 34, 69)": [
+                13,
+                51
+            ],
+            "(3, 4, 69)": [
+                25,
+                40
+            ],
+            "(3, 34, 69)": [
+                25,
+                51
+            ],
+            "(4, 34, 69)": [
+                40,
+                51
+            ],
+            "(8, 1, 70)": [
+                34,
+                45
+            ],
+            "(8, 2, 70)": [
+                34,
+                57
+            ],
+            "(8, 3, 70)": [
+                34,
+                70
+            ],
+            "(8, 30, 70)": [
+                34,
+                72
+            ],
+            "(1, 2, 70)": [
+                45,
+                57
+            ],
+            "(1, 3, 70)": [
+                45,
+                70
+            ],
+            "(1, 30, 70)": [
+                45,
+                72
+            ],
+            "(2, 3, 70)": [
+                57,
+                70
+            ],
+            "(2, 30, 70)": [
+                57,
+                72
+            ],
+            "(3, 30, 70)": [
+                70,
+                72
+            ],
+            "(29, 4, 71)": [
+                26,
+                32
+            ],
+            "(29, 5, 71)": [
+                26,
+                40
+            ],
+            "(29, 6, 71)": [
+                26,
+                49
+            ],
+            "(29, 7, 71)": [
+                26,
+                56
+            ],
+            "(29, 12, 71)": [
+                26,
+                68
+            ],
+            "(4, 5, 71)": [
+                32,
+                40
+            ],
+            "(4, 6, 71)": [
+                32,
+                49
+            ],
+            "(4, 7, 71)": [
+                32,
+                56
+            ],
+            "(4, 12, 71)": [
+                32,
+                68
+            ],
+            "(5, 6, 71)": [
+                40,
+                49
+            ],
+            "(5, 7, 71)": [
+                40,
+                56
+            ],
+            "(5, 12, 71)": [
+                40,
+                68
+            ],
+            "(6, 7, 71)": [
+                49,
+                56
+            ],
+            "(6, 12, 71)": [
+                49,
+                68
+            ],
+            "(7, 12, 71)": [
+                56,
+                68
+            ],
+            "(5, 6, 72)": [
+                30,
+                39
+            ],
+            "(5, 42, 72)": [
+                30,
+                47
+            ],
+            "(6, 42, 72)": [
+                39,
+                47
+            ],
+            "(5, 4, 73)": [
+                1,
+                9
+            ],
+            "(5, 3, 73)": [
+                1,
+                24
+            ],
+            "(5, 2, 73)": [
+                1,
+                37
+            ],
+            "(5, 22, 73)": [
+                1,
+                47
+            ],
+            "(4, 3, 73)": [
+                9,
+                24
+            ],
+            "(4, 2, 73)": [
+                9,
+                37
+            ],
+            "(4, 22, 73)": [
+                9,
+                47
+            ],
+            "(3, 2, 73)": [
+                24,
+                37
+            ],
+            "(3, 22, 73)": [
+                24,
+                47
+            ],
+            "(2, 22, 73)": [
+                37,
+                47
+            ],
+            "(27, 2, 74)": [
+                38,
+                44
+            ],
+            "(27, 23, 74)": [
+                38,
+                61
+            ],
+            "(2, 23, 74)": [
+                44,
+                61
+            ],
+            "(39, 6, 75)": [
+                18,
+                29
+            ],
+            "(12, 8, 76)": [
+                1,
+                18
+            ],
+            "(12, 1, 76)": [
+                1,
+                29
+            ],
+            "(12, 19, 76)": [
+                1,
+                46
+            ],
+            "(8, 1, 76)": [
+                18,
+                29
+            ],
+            "(8, 19, 76)": [
+                18,
+                46
+            ],
+            "(1, 19, 76)": [
+                29,
+                46
+            ],
+            "(17, 8, 77)": [
+                7,
+                25
+            ],
+            "(7, 6, 78)": [
+                26,
+                33
+            ],
+            "(7, 5, 78)": [
+                26,
+                42
+            ],
+            "(7, 4, 78)": [
+                26,
+                50
+            ],
+            "(7, 3, 78)": [
+                26,
+                65
+            ],
+            "(6, 5, 78)": [
+                33,
+                42
+            ],
+            "(6, 4, 78)": [
+                33,
+                50
+            ],
+            "(6, 3, 78)": [
+                33,
+                65
+            ],
+            "(5, 4, 78)": [
+                42,
+                50
+            ],
+            "(5, 3, 78)": [
+                42,
+                65
+            ],
+            "(4, 3, 78)": [
+                50,
+                65
+            ],
+            "(42, 7, 79)": [
+                34,
+                35
+            ],
+            "(42, 0, 79)": [
+                34,
+                46
+            ],
+            "(42, 17, 79)": [
+                34,
+                47
+            ],
+            "(7, 0, 79)": [
+                35,
+                46
+            ],
+            "(7, 17, 79)": [
+                35,
+                47
+            ],
+            "(0, 17, 79)": [
+                46,
+                47
+            ],
+            "(23, 1, 80)": [
+                5,
+                10
+            ],
+            "(21, 2, 81)": [
+                6,
+                11
+            ],
+            "(21, 25, 81)": [
+                6,
+                18
+            ],
+            "(2, 25, 81)": [
+                11,
+                18
+            ],
+            "(35, 4, 83)": [
+                16,
+                35
+            ],
+            "(35, 3, 83)": [
+                16,
+                50
+            ],
+            "(35, 26, 83)": [
+                16,
+                62
+            ],
+            "(4, 3, 83)": [
+                35,
+                50
+            ],
+            "(4, 26, 83)": [
+                35,
+                62
+            ],
+            "(3, 26, 83)": [
+                50,
+                62
+            ],
+            "(0, 16, 84)": [
+                24,
+                35
+            ],
+            "(13, 7, 85)": [
+                35,
+                38
+            ],
+            "(13, 6, 85)": [
+                35,
+                45
+            ],
+            "(13, 5, 85)": [
+                35,
+                54
+            ],
+            "(7, 6, 85)": [
+                38,
+                45
+            ],
+            "(7, 5, 85)": [
+                38,
+                54
+            ],
+            "(6, 5, 85)": [
+                45,
+                54
+            ],
+            "(40, 42, 86)": [
+                33,
+                44
+            ],
+            "(5, 6, 87)": [
+                13,
+                22
+            ],
+            "(5, 7, 87)": [
+                13,
+                29
+            ],
+            "(5, 0, 87)": [
+                13,
+                40
+            ],
+            "(5, 18, 87)": [
+                13,
+                49
+            ],
+            "(6, 7, 87)": [
+                22,
+                29
+            ],
+            "(6, 0, 87)": [
+                22,
+                40
+            ],
+            "(6, 18, 87)": [
+                22,
+                49
+            ],
+            "(7, 0, 87)": [
+                29,
+                40
+            ],
+            "(7, 18, 87)": [
+                29,
+                49
+            ],
+            "(0, 18, 87)": [
+                40,
+                49
+            ],
+            "(14, 1, 88)": [
+                6,
+                11
+            ],
+            "(14, 2, 88)": [
+                6,
+                23
+            ],
+            "(1, 2, 88)": [
+                11,
+                23
+            ],
+            "(25, 3, 89)": [
+                22,
+                28
+            ],
+            "(25, 4, 89)": [
+                22,
+                43
+            ],
+            "(25, 5, 89)": [
+                22,
+                51
+            ],
+            "(25, 36, 89)": [
+                22,
+                67
+            ],
+            "(3, 4, 89)": [
+                28,
+                43
+            ],
+            "(3, 5, 89)": [
+                28,
+                51
+            ],
+            "(3, 36, 89)": [
+                28,
+                67
+            ],
+            "(4, 5, 89)": [
+                43,
+                51
+            ],
+            "(4, 36, 89)": [
+                43,
+                67
+            ],
+            "(5, 36, 89)": [
+                51,
+                67
+            ],
+            "(23, 1, 90)": [
+                32,
+                37
+            ],
+            "(23, 0, 90)": [
+                32,
+                65
+            ],
+            "(23, 7, 90)": [
+                32,
+                76
+            ],
+            "(23, 6, 90)": [
+                32,
+                83
+            ],
+            "(1, 0, 90)": [
+                37,
+                65
+            ],
+            "(1, 7, 90)": [
+                37,
+                76
+            ],
+            "(1, 6, 90)": [
+                37,
+                83
+            ],
+            "(0, 7, 90)": [
+                65,
+                76
+            ],
+            "(0, 6, 90)": [
+                65,
+                83
+            ],
+            "(7, 6, 90)": [
+                76,
+                83
+            ],
+            "(32, 4, 91)": [
+                21,
+                28
+            ],
+            "(32, 28, 91)": [
+                21,
+                29
+            ],
+            "(4, 28, 91)": [
+                28,
+                29
+            ],
+            "(41, 7, 92)": [
+                20,
+                26
+            ],
+            "(41, 12, 92)": [
+                20,
+                38
+            ],
+            "(7, 12, 92)": [
+                26,
+                38
+            ],
+            "(21, 1, 93)": [
+                16,
+                23
+            ],
+            "(21, 8, 93)": [
+                16,
+                34
+            ],
+            "(21, 12, 93)": [
+                16,
+                51
+            ],
+            "(1, 8, 93)": [
+                23,
+                34
+            ],
+            "(1, 12, 93)": [
+                23,
+                51
+            ],
+            "(8, 12, 93)": [
+                34,
+                51
+            ],
+            "(12, 8, 94)": [
+                30,
+                47
+            ],
+            "(12, 1, 94)": [
+                30,
+                58
+            ],
+            "(12, 2, 94)": [
+                30,
+                70
+            ],
+            "(12, 25, 94)": [
+                30,
+                77
+            ],
+            "(8, 1, 94)": [
+                47,
+                58
+            ],
+            "(8, 2, 94)": [
+                47,
+                70
+            ],
+            "(8, 25, 94)": [
+                47,
+                77
+            ],
+            "(1, 2, 94)": [
+                58,
+                70
+            ],
+            "(1, 25, 94)": [
+                58,
+                77
+            ],
+            "(2, 25, 94)": [
+                70,
+                77
+            ],
+            "(39, 5, 95)": [
+                9,
+                11
+            ],
+            "(39, 4, 95)": [
+                9,
+                19
+            ],
+            "(39, 3, 95)": [
+                9,
+                34
+            ],
+            "(5, 4, 95)": [
+                11,
+                19
+            ],
+            "(5, 3, 95)": [
+                11,
+                34
+            ],
+            "(4, 3, 95)": [
+                19,
+                34
+            ],
+            "(15, 1, 96)": [
+                5,
+                13
+            ],
+            "(15, 2, 96)": [
+                5,
+                25
+            ],
+            "(15, 3, 96)": [
+                5,
+                38
+            ],
+            "(1, 2, 96)": [
+                13,
+                25
+            ],
+            "(1, 3, 96)": [
+                13,
+                38
+            ],
+            "(2, 3, 96)": [
+                25,
+                38
+            ],
+            "(21, 2, 97)": [
+                16,
+                21
+            ],
+            "(21, 3, 97)": [
+                16,
+                34
+            ],
+            "(21, 4, 97)": [
+                16,
+                49
+            ],
+            "(21, 5, 97)": [
+                16,
+                57
+            ],
+            "(21, 36, 97)": [
+                16,
+                73
+            ],
+            "(2, 3, 97)": [
+                21,
+                34
+            ],
+            "(2, 4, 97)": [
+                21,
+                49
+            ],
+            "(2, 5, 97)": [
+                21,
+                57
+            ],
+            "(2, 36, 97)": [
+                21,
+                73
+            ],
+            "(3, 4, 97)": [
+                34,
+                49
+            ],
+            "(3, 5, 97)": [
+                34,
+                57
+            ],
+            "(3, 36, 97)": [
+                34,
+                73
+            ],
+            "(4, 5, 97)": [
+                49,
+                57
+            ],
+            "(4, 36, 97)": [
+                49,
+                73
+            ],
+            "(5, 36, 97)": [
+                57,
+                73
+            ],
+            "(43, 6, 98)": [
+                11,
+                13
+            ],
+            "(43, 5, 98)": [
+                11,
+                22
+            ],
+            "(43, 4, 98)": [
+                11,
+                30
+            ],
+            "(43, 3, 98)": [
+                11,
+                45
+            ],
+            "(6, 5, 98)": [
+                13,
+                22
+            ],
+            "(6, 4, 98)": [
+                13,
+                30
+            ],
+            "(6, 3, 98)": [
+                13,
+                45
+            ],
+            "(5, 4, 98)": [
+                22,
+                30
+            ],
+            "(5, 3, 98)": [
+                22,
+                45
+            ],
+            "(4, 3, 98)": [
+                30,
+                45
+            ],
+            "(12, 8, 99)": [
+                38,
+                55
+            ],
+            "(12, 1, 99)": [
+                38,
+                66
+            ],
+            "(12, 23, 99)": [
+                38,
+                71
+            ],
+            "(8, 1, 99)": [
+                55,
+                66
+            ],
+            "(8, 23, 99)": [
+                55,
+                71
+            ],
+            "(1, 23, 99)": [
+                66,
+                71
+            ]
+        },
+        "Kit_map": {
+            "(18, 33)": [
+                0
+            ],
+            "(0, 42)": [
+                0
+            ],
+            "(7, 53)": [
+                0
+            ],
+            "(6, 60)": [
+                0
+            ],
+            "(5, 69)": [
+                0
+            ],
+            "(32, 84)": [
+                0
+            ],
+            "(11, 3)": [
+                1
+            ],
+            "(7, 22)": [
+                1
+            ],
+            "(40, 34)": [
+                1
+            ],
+            "(1, 31)": [
+                2
+            ],
+            "(0, 59)": [
+                2
+            ],
+            "(7, 70)": [
+                2
+            ],
+            "(43, 75)": [
+                2
+            ],
+            "(4, 27)": [
+                3
+            ],
+            "(3, 42)": [
+                3
+            ],
+            "(2, 55)": [
+                3
+            ],
+            "(20, 57)": [
+                3
+            ],
+            "(40, 8)": [
+                5
+            ],
+            "(6, 27)": [
+                5
+            ],
+            "(5, 36)": [
+                5
+            ],
+            "(4, 44)": [
+                5
+            ],
+            "(3, 59)": [
+                5
+            ],
+            "(26, 71)": [
+                5
+            ],
+            "(23, 31)": [
+                6
+            ],
+            "(1, 36)": [
+                6
+            ],
+            "(16, 53)": [
+                6
+            ],
+            "(6, 31)": [
+                7
+            ],
+            "(7, 38)": [
+                85,
+                7
+            ],
+            "(12, 50)": [
+                7
+            ],
+            "(7, 12)": [
+                8
+            ],
+            "(6, 19)": [
+                8
+            ],
+            "(37, 20)": [
+                8
+            ],
+            "(37, 9)": [
+                10
+            ],
+            "(38, 15)": [
+                10
+            ],
+            "(42, 28)": [
+                11
+            ],
+            "(7, 29)": [
+                11,
+                87
+            ],
+            "(13, 32)": [
+                11
+            ],
+            "(16, 9)": [
+                12
+            ],
+            "(0, 20)": [
+                12
+            ],
+            "(7, 31)": [
+                12
+            ],
+            "(6, 38)": [
+                12
+            ],
+            "(38, 43)": [
+                12
+            ],
+            "(43, 37)": [
+                13
+            ],
+            "(6, 39)": [
+                72,
+                13
+            ],
+            "(3, 35)": [
+                14
+            ],
+            "(2, 48)": [
+                14
+            ],
+            "(1, 60)": [
+                36,
+                14
+            ],
+            "(8, 71)": [
+                14
+            ],
+            "(14, 4)": [
+                16
+            ],
+            "(1, 9)": [
+                16
+            ],
+            "(2, 21)": [
+                16,
+                97
+            ],
+            "(3, 34)": [
+                16,
+                97,
+                53,
+                95
+            ],
+            "(4, 49)": [
+                16,
+                97
+            ],
+            "(35, 68)": [
+                16
+            ],
+            "(8, 21)": [
+                17
+            ],
+            "(1, 32)": [
+                17
+            ],
+            "(2, 44)": [
+                17,
+                74
+            ],
+            "(3, 57)": [
+                17
+            ],
+            "(31, 61)": [
+                17
+            ],
+            "(41, 22)": [
+                18
+            ],
+            "(6, 35)": [
+                18
+            ],
+            "(38, 40)": [
+                18
+            ],
+            "(39, 38)": [
+                19
+            ],
+            "(6, 49)": [
+                19,
+                71
+            ],
+            "(7, 56)": [
+                19,
+                71
+            ],
+            "(40, 35)": [
+                21
+            ],
+            "(7, 47)": [
+                21
+            ],
+            "(13, 50)": [
+                21
+            ],
+            "(6, 26)": [
+                22,
+                30
+            ],
+            "(5, 35)": [
+                22
+            ],
+            "(35, 46)": [
+                22
+            ],
+            "(25, 36)": [
+                24
+            ],
+            "(2, 43)": [
+                24
+            ],
+            "(1, 55)": [
+                24
+            ],
+            "(8, 66)": [
+                24
+            ],
+            "(38, 2)": [
+                25
+            ],
+            "(6, 7)": [
+                25
+            ],
+            "(43, 9)": [
+                25
+            ],
+            "(39, 5)": [
+                26
+            ],
+            "(36, 23)": [
+                26
+            ],
+            "(35, 8)": [
+                27
+            ],
+            "(5, 19)": [
+                27
+            ],
+            "(6, 28)": [
+                27
+            ],
+            "(42, 36)": [
+                27
+            ],
+            "(17, 1)": [
+                28
+            ],
+            "(0, 2)": [
+                28
+            ],
+            "(7, 13)": [
+                28
+            ],
+            "(6, 20)": [
+                28
+            ],
+            "(33, 12)": [
+                30
+            ],
+            "(5, 17)": [
+                30
+            ],
+            "(7, 33)": [
+                35,
+                30
+            ],
+            "(6, 33)": [
+                78,
+                31
+            ],
+            "(5, 42)": [
+                78,
+                31
+            ],
+            "(4, 50)": [
+                78,
+                31
+            ],
+            "(30, 63)": [
+                31
+            ],
+            "(15, 34)": [
+                32
+            ],
+            "(0, 54)": [
+                32
+            ],
+            "(7, 65)": [
+                32
+            ],
+            "(40, 77)": [
+                32
+            ],
+            "(15, 37)": [
+                33
+            ],
+            "(1, 45)": [
+                33,
+                70
+            ],
+            "(2, 57)": [
+                33,
+                70
+            ],
+            "(10, 20)": [
+                34
+            ],
+            "(0, 34)": [
+                34,
+                59
+            ],
+            "(18, 43)": [
+                34
+            ],
+            "(10, 8)": [
+                35
+            ],
+            "(6, 40)": [
+                35
+            ],
+            "(40, 9)": [
+                36
+            ],
+            "(7, 21)": [
+                36
+            ],
+            "(0, 32)": [
+                36
+            ],
+            "(2, 72)": [
+                36
+            ],
+            "(21, 34)": [
+                37
+            ],
+            "(1, 41)": [
+                37
+            ],
+            "(15, 49)": [
+                37
+            ],
+            "(14, 18)": [
+                38
+            ],
+            "(0, 51)": [
+                38
+            ],
+            "(7, 62)": [
+                38
+            ],
+            "(43, 67)": [
+                38
+            ],
+            "(12, 38)": [
+                99,
+                92,
+                39
+            ],
+            "(7, 50)": [
+                39
+            ],
+            "(43, 55)": [
+                39
+            ],
+            "(24, 31)": [
+                40
+            ],
+            "(3, 37)": [
+                40
+            ],
+            "(4, 52)": [
+                40
+            ],
+            "(24, 10)": [
+                42
+            ],
+            "(25, 22)": [
+                89,
+                42
+            ],
+            "(20, 33)": [
+                44
+            ],
+            "(1, 43)": [
+                44
+            ],
+            "(8, 54)": [
+                44
+            ],
+            "(11, 64)": [
+                44
+            ],
+            "(27, 16)": [
+                45
+            ],
+            "(2, 22)": [
+                45
+            ],
+            "(23, 39)": [
+                45
+            ],
+            "(5, 7)": [
+                46
+            ],
+            "(4, 15)": [
+                46
+            ],
+            "(31, 34)": [
+                46
+            ],
+            "(17, 12)": [
+                47
+            ],
+            "(0, 13)": [
+                47
+            ],
+            "(41, 13)": [
+                49
+            ],
+            "(7, 19)": [
+                49
+            ],
+            "(0, 30)": [
+                49
+            ],
+            "(8, 47)": [
+                49,
+                94
+            ],
+            "(9, 50)": [
+                49
+            ],
+            "(37, 36)": [
+                50
+            ],
+            "(39, 48)": [
+                50
+            ],
+            "(25, 19)": [
+                51
+            ],
+            "(3, 25)": [
+                51,
+                69
+            ],
+            "(4, 40)": [
+                51,
+                69
+            ],
+            "(5, 48)": [
+                51
+            ],
+            "(37, 58)": [
+                51
+            ],
+            "(27, 4)": [
+                52
+            ],
+            "(3, 23)": [
+                52
+            ],
+            "(28, 39)": [
+                52
+            ],
+            "(34, 8)": [
+                53
+            ],
+            "(4, 19)": [
+                53,
+                95
+            ],
+            "(24, 40)": [
+                53
+            ],
+            "(3, 9)": [
+                54
+            ],
+            "(4, 24)": [
+                54
+            ],
+            "(5, 32)": [
+                54
+            ],
+            "(37, 42)": [
+                54
+            ],
+            "(36, 15)": [
+                55
+            ],
+            "(37, 21)": [
+                55
+            ],
+            "(12, 40)": [
+                57
+            ],
+            "(7, 52)": [
+                57
+            ],
+            "(6, 59)": [
+                57
+            ],
+            "(5, 68)": [
+                57
+            ],
+            "(33, 73)": [
+                57
+            ],
+            "(24, 26)": [
+                58
+            ],
+            "(2, 45)": [
+                58
+            ],
+            "(1, 57)": [
+                58
+            ],
+            "(8, 68)": [
+                58
+            ],
+            "(9, 71)": [
+                58
+            ],
+            "(8, 17)": [
+                59
+            ],
+            "(7, 45)": [
+                59
+            ],
+            "(6, 52)": [
+                59
+            ],
+            "(39, 63)": [
+                59
+            ],
+            "(41, 24)": [
+                60
+            ],
+            "(7, 30)": [
+                60
+            ],
+            "(0, 41)": [
+                60
+            ],
+            "(16, 52)": [
+                60
+            ],
+            "(6, 32)": [
+                61
+            ],
+            "(41, 45)": [
+                61
+            ],
+            "(33, 16)": [
+                62
+            ],
+            "(5, 21)": [
+                62
+            ],
+            "(6, 30)": [
+                62
+            ],
+            "(7, 37)": [
+                62
+            ],
+            "(0, 48)": [
+                62
+            ],
+            "(8, 65)": [
+                62
+            ],
+            "(9, 68)": [
+                62
+            ],
+            "(0, 8)": [
+                63
+            ],
+            "(18, 17)": [
+                63
+            ],
+            "(36, 11)": [
+                64
+            ],
+            "(6, 18)": [
+                64
+            ],
+            "(7, 25)": [
+                64
+            ],
+            "(0, 36)": [
+                64
+            ],
+            "(8, 53)": [
+                64
+            ],
+            "(9, 56)": [
+                64
+            ],
+            "(5, 25)": [
+                66
+            ],
+            "(34, 28)": [
+                66
+            ],
+            "(2, 4)": [
+                67
+            ],
+            "(27, 10)": [
+                67
+            ],
+            "(20, 35)": [
+                68
+            ],
+            "(2, 37)": [
+                73,
+                68
+            ],
+            "(3, 50)": [
+                83,
+                68
+            ],
+            "(31, 54)": [
+                68
+            ],
+            "(26, 13)": [
+                69
+            ],
+            "(34, 51)": [
+                69
+            ],
+            "(8, 34)": [
+                93,
+                70
+            ],
+            "(3, 70)": [
+                70
+            ],
+            "(30, 72)": [
+                70
+            ],
+            "(29, 26)": [
+                71
+            ],
+            "(4, 32)": [
+                71
+            ],
+            "(5, 40)": [
+                71
+            ],
+            "(12, 68)": [
+                71
+            ],
+            "(5, 30)": [
+                72
+            ],
+            "(42, 47)": [
+                72
+            ],
+            "(5, 1)": [
+                73
+            ],
+            "(4, 9)": [
+                73
+            ],
+            "(3, 24)": [
+                73
+            ],
+            "(22, 47)": [
+                73
+            ],
+            "(27, 38)": [
+                74
+            ],
+            "(23, 61)": [
+                74
+            ],
+            "(39, 18)": [
+                75
+            ],
+            "(6, 29)": [
+                75
+            ],
+            "(12, 1)": [
+                76
+            ],
+            "(8, 18)": [
+                76
+            ],
+            "(1, 29)": [
+                76
+            ],
+            "(19, 46)": [
+                76
+            ],
+            "(17, 7)": [
+                77
+            ],
+            "(8, 25)": [
+                77
+            ],
+            "(7, 26)": [
+                92,
+                78
+            ],
+            "(3, 65)": [
+                78
+            ],
+            "(42, 34)": [
+                79
+            ],
+            "(7, 35)": [
+                79
+            ],
+            "(0, 46)": [
+                79
+            ],
+            "(17, 47)": [
+                79
+            ],
+            "(23, 5)": [
+                80
+            ],
+            "(1, 10)": [
+                80
+            ],
+            "(21, 6)": [
+                81
+            ],
+            "(2, 11)": [
+                81
+            ],
+            "(25, 18)": [
+                81
+            ],
+            "(35, 16)": [
+                83
+            ],
+            "(4, 35)": [
+                83
+            ],
+            "(26, 62)": [
+                83
+            ],
+            "(0, 24)": [
+                84
+            ],
+            "(16, 35)": [
+                84
+            ],
+            "(13, 35)": [
+                85
+            ],
+            "(6, 45)": [
+                85
+            ],
+            "(5, 54)": [
+                85
+            ],
+            "(40, 33)": [
+                86
+            ],
+            "(42, 44)": [
+                86
+            ],
+            "(5, 13)": [
+                87
+            ],
+            "(6, 22)": [
+                87
+            ],
+            "(0, 40)": [
+                87
+            ],
+            "(18, 49)": [
+                87
+            ],
+            "(14, 6)": [
+                88
+            ],
+            "(1, 11)": [
+                88
+            ],
+            "(2, 23)": [
+                88
+            ],
+            "(3, 28)": [
+                89
+            ],
+            "(4, 43)": [
+                89
+            ],
+            "(5, 51)": [
+                89
+            ],
+            "(36, 67)": [
+                89
+            ],
+            "(23, 32)": [
+                90
+            ],
+            "(1, 37)": [
+                90
+            ],
+            "(0, 65)": [
+                90
+            ],
+            "(7, 76)": [
+                90
+            ],
+            "(6, 83)": [
+                90
+            ],
+            "(32, 21)": [
+                91
+            ],
+            "(4, 28)": [
+                91
+            ],
+            "(28, 29)": [
+                91
+            ],
+            "(41, 20)": [
+                92
+            ],
+            "(21, 16)": [
+                97,
+                93
+            ],
+            "(1, 23)": [
+                93
+            ],
+            "(12, 51)": [
+                93
+            ],
+            "(12, 30)": [
+                94
+            ],
+            "(1, 58)": [
+                94
+            ],
+            "(2, 70)": [
+                94
+            ],
+            "(25, 77)": [
+                94
+            ],
+            "(39, 9)": [
+                95
+            ],
+            "(5, 11)": [
+                95
+            ],
+            "(15, 5)": [
+                96
+            ],
+            "(1, 13)": [
+                96
+            ],
+            "(2, 25)": [
+                96
+            ],
+            "(3, 38)": [
+                96
+            ],
+            "(5, 57)": [
+                97
+            ],
+            "(36, 73)": [
+                97
+            ],
+            "(43, 11)": [
+                98
+            ],
+            "(6, 13)": [
+                98
+            ],
+            "(5, 22)": [
+                98
+            ],
+            "(4, 30)": [
+                98
+            ],
+            "(3, 45)": [
+                98
+            ],
+            "(8, 55)": [
+                99
+            ],
+            "(1, 66)": [
+                99
+            ],
+            "(23, 71)": [
+                99
+            ]
+        },
+        "global_graph": {
+            "N": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43
+            ],
+            "A": [
+                "(18, 0)",
+                "(18, 7)",
+                "(18, 6)",
+                "(18, 5)",
+                "(18, 32)",
+                "(0, 7)",
+                "(0, 6)",
+                "(0, 5)",
+                "(0, 32)",
+                "(7, 6)",
+                "(7, 5)",
+                "(7, 32)",
+                "(6, 5)",
+                "(6, 32)",
+                "(5, 32)",
+                "(11, 7)",
+                "(11, 40)",
+                "(7, 40)",
+                "(1, 0)",
+                "(1, 7)",
+                "(1, 43)",
+                "(0, 43)",
+                "(7, 43)",
+                "(4, 3)",
+                "(4, 2)",
+                "(4, 20)",
+                "(3, 2)",
+                "(3, 20)",
+                "(2, 20)",
+                "(40, 6)",
+                "(40, 5)",
+                "(40, 4)",
+                "(40, 3)",
+                "(40, 26)",
+                "(6, 4)",
+                "(6, 3)",
+                "(6, 26)",
+                "(5, 4)",
+                "(5, 3)",
+                "(5, 26)",
+                "(4, 26)",
+                "(3, 26)",
+                "(23, 1)",
+                "(23, 16)",
+                "(1, 16)",
+                "(6, 7)",
+                "(6, 12)",
+                "(7, 12)",
+                "(7, 37)",
+                "(6, 37)",
+                "(37, 38)",
+                "(42, 7)",
+                "(42, 13)",
+                "(7, 13)",
+                "(16, 0)",
+                "(16, 7)",
+                "(16, 6)",
+                "(16, 38)",
+                "(0, 38)",
+                "(7, 38)",
+                "(6, 38)",
+                "(43, 6)",
+                "(3, 1)",
+                "(3, 8)",
+                "(2, 1)",
+                "(2, 8)",
+                "(1, 8)",
+                "(14, 1)",
+                "(14, 2)",
+                "(14, 3)",
+                "(14, 4)",
+                "(14, 35)",
+                "(1, 2)",
+                "(1, 3)",
+                "(1, 4)",
+                "(1, 35)",
+                "(2, 3)",
+                "(2, 4)",
+                "(2, 35)",
+                "(3, 4)",
+                "(3, 35)",
+                "(4, 35)",
+                "(8, 1)",
+                "(8, 2)",
+                "(8, 3)",
+                "(8, 31)",
+                "(1, 31)",
+                "(2, 31)",
+                "(3, 31)",
+                "(41, 6)",
+                "(41, 38)",
+                "(39, 6)",
+                "(39, 7)",
+                "(40, 7)",
+                "(40, 13)",
+                "(6, 35)",
+                "(5, 35)",
+                "(25, 2)",
+                "(25, 1)",
+                "(25, 8)",
+                "(38, 6)",
+                "(38, 43)",
+                "(6, 43)",
+                "(39, 36)",
+                "(35, 5)",
+                "(35, 6)",
+                "(35, 42)",
+                "(5, 6)",
+                "(5, 42)",
+                "(6, 42)",
+                "(17, 0)",
+                "(17, 7)",
+                "(17, 6)",
+                "(33, 5)",
+                "(33, 6)",
+                "(33, 7)",
+                "(5, 7)",
+                "(6, 30)",
+                "(5, 30)",
+                "(4, 30)",
+                "(15, 0)",
+                "(15, 7)",
+                "(15, 40)",
+                "(0, 40)",
+                "(15, 1)",
+                "(15, 2)",
+                "(10, 0)",
+                "(10, 18)",
+                "(0, 18)",
+                "(10, 7)",
+                "(10, 6)",
+                "(40, 0)",
+                "(40, 1)",
+                "(40, 2)",
+                "(7, 0)",
+                "(7, 1)",
+                "(7, 2)",
+                "(0, 1)",
+                "(0, 2)",
+                "(21, 1)",
+                "(21, 15)",
+                "(1, 15)",
+                "(14, 0)",
+                "(14, 7)",
+                "(14, 43)",
+                "(12, 7)",
+                "(12, 43)",
+                "(24, 3)",
+                "(24, 4)",
+                "(24, 25)",
+                "(20, 1)",
+                "(20, 8)",
+                "(20, 11)",
+                "(1, 11)",
+                "(8, 11)",
+                "(27, 2)",
+                "(27, 23)",
+                "(2, 23)",
+                "(5, 31)",
+                "(4, 31)",
+                "(41, 7)",
+                "(41, 0)",
+                "(41, 8)",
+                "(41, 9)",
+                "(7, 8)",
+                "(7, 9)",
+                "(0, 8)",
+                "(0, 9)",
+                "(8, 9)",
+                "(37, 39)",
+                "(25, 3)",
+                "(25, 4)",
+                "(25, 5)",
+                "(25, 37)",
+                "(3, 5)",
+                "(3, 37)",
+                "(4, 5)",
+                "(4, 37)",
+                "(5, 37)",
+                "(27, 3)",
+                "(27, 28)",
+                "(3, 28)",
+                "(34, 4)",
+                "(34, 3)",
+                "(34, 24)",
+                "(4, 24)",
+                "(3, 24)",
+                "(36, 37)",
+                "(12, 6)",
+                "(12, 5)",
+                "(12, 33)",
+                "(7, 33)",
+                "(6, 33)",
+                "(5, 33)",
+                "(24, 2)",
+                "(24, 1)",
+                "(24, 8)",
+                "(24, 9)",
+                "(2, 9)",
+                "(1, 9)",
+                "(8, 0)",
+                "(8, 7)",
+                "(8, 6)",
+                "(8, 39)",
+                "(0, 39)",
+                "(7, 39)",
+                "(6, 39)",
+                "(41, 16)",
+                "(7, 16)",
+                "(0, 16)",
+                "(6, 41)",
+                "(33, 0)",
+                "(33, 8)",
+                "(33, 9)",
+                "(5, 0)",
+                "(5, 8)",
+                "(5, 9)",
+                "(6, 0)",
+                "(6, 8)",
+                "(6, 9)",
+                "(36, 6)",
+                "(36, 7)",
+                "(36, 0)",
+                "(36, 8)",
+                "(36, 9)",
+                "(5, 34)",
+                "(2, 27)",
+                "(20, 2)",
+                "(20, 3)",
+                "(20, 31)",
+                "(26, 3)",
+                "(26, 4)",
+                "(26, 34)",
+                "(3, 34)",
+                "(4, 34)",
+                "(8, 30)",
+                "(1, 30)",
+                "(2, 30)",
+                "(3, 30)",
+                "(29, 4)",
+                "(29, 5)",
+                "(29, 6)",
+                "(29, 7)",
+                "(29, 12)",
+                "(4, 6)",
+                "(4, 7)",
+                "(4, 12)",
+                "(5, 12)",
+                "(5, 2)",
+                "(5, 22)",
+                "(4, 22)",
+                "(3, 22)",
+                "(2, 22)",
+                "(12, 8)",
+                "(12, 1)",
+                "(12, 19)",
+                "(8, 19)",
+                "(1, 19)",
+                "(17, 8)",
+                "(7, 4)",
+                "(7, 3)",
+                "(42, 0)",
+                "(42, 17)",
+                "(7, 17)",
+                "(0, 17)",
+                "(21, 2)",
+                "(21, 25)",
+                "(2, 25)",
+                "(35, 4)",
+                "(35, 3)",
+                "(35, 26)",
+                "(13, 7)",
+                "(13, 6)",
+                "(13, 5)",
+                "(40, 42)",
+                "(5, 18)",
+                "(6, 18)",
+                "(7, 18)",
+                "(25, 36)",
+                "(3, 36)",
+                "(4, 36)",
+                "(5, 36)",
+                "(23, 0)",
+                "(23, 7)",
+                "(23, 6)",
+                "(1, 6)",
+                "(32, 4)",
+                "(32, 28)",
+                "(4, 28)",
+                "(41, 12)",
+                "(21, 8)",
+                "(21, 12)",
+                "(1, 12)",
+                "(8, 12)",
+                "(12, 2)",
+                "(12, 25)",
+                "(8, 25)",
+                "(1, 25)",
+                "(39, 5)",
+                "(39, 4)",
+                "(39, 3)",
+                "(15, 3)",
+                "(21, 3)",
+                "(21, 4)",
+                "(21, 5)",
+                "(21, 36)",
+                "(2, 5)",
+                "(2, 36)",
+                "(43, 5)",
+                "(43, 4)",
+                "(43, 3)",
+                "(12, 23)",
+                "(8, 23)",
+                "(1, 23)"
+            ],
+            "S": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                11,
+                15,
+                43
+            ],
+            "D": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                16,
+                17,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42
+            ]
+        }
+    },
+    "demand": {
+        "parcels": [
+            {
+                "id": 0,
+                "destination": [
+                    27,
+                    16,
+                    20
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 1,
+                "destination": [
+                    42
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 2,
+                "destination": [
+                    19
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 3,
+                "destination": [
+                    24,
+                    26
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 4,
+                "destination": [
+                    17
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 5,
+                "destination": [
+                    9
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 6,
+                "destination": [
+                    26,
+                    35,
+                    25
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 7,
+                "destination": [
+                    12,
+                    38,
+                    17
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 8,
+                "destination": [
+                    26,
+                    32,
+                    34
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 9,
+                "destination": [
+                    38,
+                    9,
+                    12
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 10,
+                "destination": [
+                    29
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 11,
+                "destination": [
+                    38,
+                    26,
+                    37
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 12,
+                "destination": [
+                    36,
+                    30
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 13,
+                "destination": [
+                    39
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 14,
+                "destination": [
+                    31,
+                    13
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 15,
+                "destination": [
+                    22,
+                    32
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 16,
+                "destination": [
+                    41
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 17,
+                "destination": [
+                    24
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 18,
+                "destination": [
+                    34,
+                    9
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 19,
+                "destination": [
+                    23
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 20,
+                "destination": [
+                    32
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 21,
+                "destination": [
+                    34,
+                    42,
+                    16
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 22,
+                "destination": [
+                    23
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 23,
+                "destination": [
+                    34,
+                    36,
+                    35
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 24,
+                "destination": [
+                    34
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 25,
+                "destination": [
+                    27
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 26,
+                "destination": [
+                    10,
+                    38,
+                    32
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 27,
+                "destination": [
+                    28,
+                    33,
+                    36
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 28,
+                "destination": [
+                    31,
+                    17,
+                    13
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 29,
+                "destination": [
+                    13,
+                    25
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 30,
+                "destination": [
+                    28,
+                    10
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 31,
+                "destination": [
+                    10,
+                    9
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 32,
+                "destination": [
+                    13,
+                    39
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 33,
+                "destination": [
+                    28,
+                    36
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 34,
+                "destination": [
+                    22,
+                    28
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 35,
+                "destination": [
+                    26,
+                    22
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 36,
+                "destination": [
+                    17
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 37,
+                "destination": [
+                    37
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 38,
+                "destination": [
+                    35,
+                    21,
+                    28
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 39,
+                "destination": [
+                    20,
+                    27
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 40,
+                "destination": [
+                    34,
+                    16,
+                    39
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 41,
+                "destination": [
+                    14,
+                    23,
+                    34
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 42,
+                "destination": [
+                    22
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 43,
+                "destination": [
+                    22,
+                    9
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 44,
+                "destination": [
+                    42,
+                    39,
+                    28
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 45,
+                "destination": [
+                    35,
+                    38,
+                    16
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 46,
+                "destination": [
+                    20,
+                    35
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 47,
+                "destination": [
+                    20,
+                    24,
+                    25
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 48,
+                "destination": [
+                    24,
+                    26
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 49,
+                "destination": [
+                    23,
+                    16,
+                    21
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 50,
+                "destination": [
+                    29
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 51,
+                "destination": [
+                    38
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 52,
+                "destination": [
+                    37
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 53,
+                "destination": [
+                    39,
+                    42
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 54,
+                "destination": [
+                    28,
+                    22
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 55,
+                "destination": [
+                    14,
+                    32
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 56,
+                "destination": [
+                    28,
+                    34
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 57,
+                "destination": [
+                    28
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 58,
+                "destination": [
+                    23,
+                    25
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 59,
+                "destination": [
+                    21
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 60,
+                "destination": [
+                    28
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 61,
+                "destination": [
+                    13
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 62,
+                "destination": [
+                    25,
+                    34,
+                    23
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 63,
+                "destination": [
+                    35
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 64,
+                "destination": [
+                    10
+                ],
+                "backup_cost": 8.0
+            },
+            {
+                "id": 65,
+                "destination": [
+                    24,
+                    31
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 66,
+                "destination": [
+                    14,
+                    40
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 67,
+                "destination": [
+                    35
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 68,
+                "destination": [
+                    26,
+                    36,
+                    13
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 69,
+                "destination": [
+                    12,
+                    38,
+                    21
+                ],
+                "backup_cost": 12.0
+            },
+            {
+                "id": 70,
+                "destination": [
+                    17,
+                    28,
+                    32
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 71,
+                "destination": [
+                    9
+                ],
+                "backup_cost": 9.0
+            },
+            {
+                "id": 72,
+                "destination": [
+                    13,
+                    38,
+                    25
+                ],
+                "backup_cost": 11.0
+            },
+            {
+                "id": 73,
+                "destination": [
+                    33,
+                    37
+                ],
+                "backup_cost": 10.0
+            },
+            {
+                "id": 74,
+                "destination": [
+                    36,
+                    16,
+                    21
+                ],
+                "backup_cost": 12.0
+            }
+        ]
+    },
+    "time_windows": {
+        "start": 0,
+        "end": 85
+    },
+    "costs": {
+        "crowdshipper_reward": 1.0,
+        "fixed_source_delivery_cost": {
+            "0": 4.0,
+            "1": 4.0,
+            "2": 4.0,
+            "3": 4.0,
+            "4": 3.0,
+            "5": 4.0,
+            "6": 4.0,
+            "7": 5.0,
+            "8": 4.0,
+            "11": 3.0,
+            "15": 4.0,
+            "43": 5.0
+        }
+    }
+}
