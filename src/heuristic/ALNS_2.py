@@ -322,6 +322,7 @@ class ALNSSolver:
             iteration_counter += 1
 
             if (iteration_counter - last_improvement_iter) > no_improve_limit or self.temperature < self.t_min:
+                temp_best_backup = copy.deepcopy(self.best_solution)
                 self.current_solution = copy.deepcopy(self.best_solution)
                 t_reinit = self._initialize_temperature(sample_size=min(10, sample_size), accept_prob=0.5)
                 self.temperature = max(self.temperature * 2.5, t_reinit, 0.1)
@@ -329,14 +330,34 @@ class ALNSSolver:
                     # Diversification step
                     d_short = random.choice(list(self.destroy_operator_funcs.keys()))
                     r_short = random.choice(list(self.repair_operator_funcs.keys()))
-                    small_q = max(2, min(8, self.q_D1 // 2))
-                    destroyed_short = self.destroy_solution(copy.deepcopy(self.current_solution), d_short, q=small_q)
+
+                    stagnation_factor = (iteration_counter - last_improvement_iter) / no_improve_limit
+                    if stagnation_factor > 2.0:
+                        kick_q = max(5, min(15, self.q_D1 // 1.5))
+                        print(f"  [REHEAT] Heavy Kick triggered (q={kick_q})")
+                    else:
+                       # Kick standard
+                        kick_q = max(2, min(8, self.q_D1 // 2))
+
+                    destroyed_short = self.destroy_solution(copy.deepcopy(self.current_solution), d_short, q=kick_q)
                     cand = self.repair_solution(destroyed_short, r_short, order_strategy="Random")
                     if 'solution_cost' not in cand:
                         cand['solution_cost'] = self._calculate_cost(cand)
-                        self.current_solution = cand
-                except Exception: pass
 
+                    delta_kick = cand['solution_cost'] - self.best_solution['solution_cost']
+                    threshold_kick = 0.20 * self.best_solution['solution_cost']
+
+                    if delta_kick < threshold_kick: 
+                        self.current_solution = cand
+                        # print(f"  [REHEAT] Kick accepted (delta={delta_kick:.1f})")
+                    else:
+                        self.current_solution = temp_best_backup
+
+                except Exception as e: 
+                    # print(f"  [REHEAT] Kick failed with error: {e}")
+                    self.current_solution = temp_best_backup
+
+                last_improvement_iter = iteration_counter
                 reheat_counter += 1
 
             elapsed = time.time() - start_time
