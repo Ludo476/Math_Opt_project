@@ -322,23 +322,21 @@ class ALNSSolver:
             iteration_counter += 1
 
             if (iteration_counter - last_improvement_iter) > no_improve_limit or self.temperature < self.t_min:
-                t_reinit = self._initialize_temperature(sample_size=min(10, sample_size), accept_prob=0.6)
+                self.current_solution = copy.deepcopy(self.best_solution)
+                t_reinit = self._initialize_temperature(sample_size=min(10, sample_size), accept_prob=0.5)
                 self.temperature = max(self.temperature * 2.5, t_reinit, 0.1)
                 try:
                     # Diversification step
                     d_short = random.choice(list(self.destroy_operator_funcs.keys()))
                     r_short = random.choice(list(self.repair_operator_funcs.keys()))
-                    small_q = max(1, min(5, self.q_D1 // 3))
+                    small_q = max(2, min(8, self.q_D1 // 2))
                     destroyed_short = self.destroy_solution(copy.deepcopy(self.current_solution), d_short, q=small_q)
                     cand = self.repair_solution(destroyed_short, r_short, order_strategy="Random")
                     if 'solution_cost' not in cand:
                         cand['solution_cost'] = self._calculate_cost(cand)
-                    if (cand['solution_cost'] - self.current_solution['solution_cost']) < 0 or random.random() < 0.15:
                         self.current_solution = cand
                 except Exception: pass
 
-                self.current_solution = copy.deepcopy(self.best_solution)
-                last_improvement_iter = iteration_counter
                 reheat_counter += 1
 
             elapsed = time.time() - start_time
