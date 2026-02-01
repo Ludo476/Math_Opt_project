@@ -95,6 +95,9 @@ class DestroyOperators:
             new_solution['backup_parcels'].add(parcel_id)
             removed.append(parcel_id)
 
+        
+
+
         # refresh the load matrix for the subsequent Repair phase
         new_solution['load_matrix'], _= self.helpers._build_load_matrix_from_solution(new_solution)
         #print(f"[DESTROY-path_elimination] Rimossi {len(removed)} pacchi dalla stazione {selected_station_id}: {removed}")
@@ -162,6 +165,14 @@ class DestroyOperators:
             #     print(f"[DESTROY-capacity_reduction] Station {station_id}: capacity {self.station_capacities[station_idx]} → {adjusted_capacities[station_idx]}, rimoved {len(removed)} parcel: {removed}")
             # else:
             #     print(f"[DESTROY-capacity_reduction] Station {station_id}:no parcels removed (current load <= new capacity).")
+        temp_caps_map = {s['id']: s['capacity'] for s in self.instance_data['network']['stations']}
+        
+        stations_list = self.instance_data['network']['stations']
+        for idx, reduced_cap in adjusted_capacities.items():
+            s_id = stations_list[idx]['id']
+            temp_caps_map[s_id] = reduced_cap
+
+        new_solution['_temp_active_capacities'] = temp_caps_map
 
         new_solution['load_matrix'], _ = self.helpers._build_load_matrix_from_solution(new_solution)       
         return new_solution

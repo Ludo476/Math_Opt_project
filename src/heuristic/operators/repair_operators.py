@@ -83,7 +83,10 @@ class RepairOperators:
         """
         new_solution = copy.deepcopy(solution)
         parcels_to_repair = list(new_solution['backup_parcels'])
-        
+        if '_temp_active_capacities' in new_solution:
+            current_capacities_limit = new_solution['_temp_active_capacities']
+        else:
+            current_capacities_limit = self.station_capacities
         # Setup
         used_crowdshippers_in_repair = {
             cs_id for cs_id, a in new_solution.get('crowdshipper_assignments', {}).items() if a
@@ -119,8 +122,8 @@ class RepairOperators:
                 valid_moves = []
 
                 for origin in candidate_stations:
-                    # Capacity check
-                    if station_load.get(origin, 0) >= capacities.get(origin, float('inf')): 
+                    limit = current_capacities_limit.get(origin, float('inf'))
+                    if station_load.get(origin, 0) >= limit: 
                         continue
                     
                     # Path finding
@@ -190,6 +193,7 @@ class RepairOperators:
         new_solution['backup_parcels'] = set(new_solution['backup_parcels']) - repaired
         new_solution['load_matrix'] = current_load_matrix
         new_solution['solution_cost'] = self.solver._calculate_cost(new_solution)
+        new_solution.pop('_temp_active_capacities', None)
         
         return new_solution
     
