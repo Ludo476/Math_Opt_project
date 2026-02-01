@@ -25,7 +25,7 @@ SELECTED_FAMILIES = [0, 1, 2]  #24,36,44 stations
 NUM_INSTANCES = 4
 
 ALNS_TIMELIMIT = 600 #I find this is the best tradeoff between quality and speed
-COOLING_RATE = 0.95 #0.75 
+COOLING_RATE = 0.9 #0.95 
 SEEDS = [42, 123, 456, 101, 999] #I think these are enough but we can add to have a more robust analysis
 
 def get_memory_usage():
@@ -145,4 +145,5 @@ def run_experiment():
     print("\n ALNS analysis completated")
 
 if __name__ == "__main__":
+
     run_experiment()
